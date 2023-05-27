@@ -7,6 +7,8 @@ export default function TeamsView() {
     const leagueTeams = useStore((state) => state.leagueTeams);
     const [ownerNames, setOwnerNames] = useState({});
     const playersArray = Object.values(sleeperJSON);
+    const sfPlayers = useStore((state) => state.sfPlayers);
+    const [teamScores, setTeamScores] = useState([]);
 
     useEffect(() => {
         // Fetch and store the user display names for each owner ID
@@ -26,11 +28,50 @@ export default function TeamsView() {
                     }));
                 });
         });
-    }, [leagueTeams]);
 
-    function teamUI(team) {
-        return team.players.map((player) => <p className="px-1 flex-row">{playersArray.find(x => x.player_id === player).full_name}</p>);
-    }
+        const updatedTeamScores = [];
+
+        leagueTeams.forEach((team) => {
+            const owner_name = ownerNames[team.owner_id];
+            const teamScore = {
+                owner_name: owner_name,
+                player_scores: [],
+                overall_score: 0,
+            };
+
+            team.players.forEach((player) => {
+                const foundPlayer = playersArray.find(
+                    (x) => x.player_id === player
+                );
+
+                const player_name = foundPlayer.full_name;
+                const search_name = foundPlayer.search_full_name;
+                const overallPlayer = sfPlayers.find(
+                    (x) =>
+                        x.Name.toLowerCase()
+                            .replace(" ", "")
+                            .replace(".", "")
+                            .replace("-", "")
+                            .replace("'", "")
+                            .includes(search_name)
+                );
+
+                const playerScore = {
+                    player_name: player_name,
+                    rbb_score: overallPlayer ? parseFloat(overallPlayer.RBBR) : 0,
+                };
+
+                teamScore.player_scores.push(playerScore);
+                teamScore.overall_score = teamScore.player_scores.reduce((sum, player) => sum + player.rbb_score, 0);
+            });
+
+            updatedTeamScores.push(teamScore);
+        });
+
+        setTeamScores(updatedTeamScores);
+        // TODO: Fix Render Loop
+        console.log(updatedTeamScores);
+    }, [leagueTeams, ownerNames, playersArray, sfPlayers, teamScores]);
 
     function userDisplayNameFetch(owner_id) {
         const url = `https://api.sleeper.app/v1/user/${owner_id}/`;
@@ -61,7 +102,6 @@ export default function TeamsView() {
                     </div>
                     <div className="px-1 d-flex flex-row">
                         <span> Players: </span>
-                        {teamUI(team)}
                     </div>
                 </div>
             ))}

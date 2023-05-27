@@ -40,4 +40,10 @@ export const useStore = create((set, get) => ({
 	setUserTeam: (newUserTeam) => set(() => ({
 		userTeam: newUserTeam,
 	})),
+
+	sfPlayers: [],
+
+	setSFPlayers: (newPlayers) => set(() => ({
+		sfPlayers: newPlayers,
+	})),
 }));

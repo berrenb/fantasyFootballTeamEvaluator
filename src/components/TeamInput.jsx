@@ -4,6 +4,8 @@ import toastr from 'toastr';
 import 'toastr/build/toastr.min.css';
 import {useStore} from "../store/store";
 import { useNavigate } from 'react-router-dom';
+import superFlexRankings from "../resources/players/sf_dynasty_ranks_rbb.csv";
+import Papa from "papaparse";
 
 
 export default function TeamInput() {
@@ -17,9 +19,23 @@ export default function TeamInput() {
     const setLeagueId = useStore(state => state.setLeagueId);
     const setLeagueTeams = useStore(state => state.setLeagueTeams);
     const setUserTeam = useStore(state => state.setUserTeam);
+    const setSFPlayers = useStore(state => state.setSFPlayers);
     const [leagues, setLeagues] = useState([]);
 
     const navigate = useNavigate();
+
+    useEffect(() => {
+        // get data from csv
+        fetch(superFlexRankings).then(response => response.text()).then(text => {
+            Papa.parse(text, {
+                header: true,
+                complete: results => {
+                    setSFPlayers(results.data);
+                }
+            });
+        });
+
+    }, []);
 
     useEffect(() => {
         if (userId) {
