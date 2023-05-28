@@ -64,25 +64,55 @@ export default function TeamInput() {
     }, [userId]);
 
     function submitForm() {
-        // Obtain user id from Sleeper
-        const url = `https://api.sleeper.app/v1/user/${username}`; // Replace with your desired URL
+        if (leagueProvider === "1") {
+            // Obtain user id from Sleeper
+            const url = `https://api.sleeper.app/v1/user/${username}`; // Replace with your desired URL
 
-        fetch(url)
-            .then(response => {
-                if (response.ok) {
-                    return response.json();
-                }
-                throw new Error('Network response was not ok.');
-            })
-            .then(data => {
-                // Handle the data from the response
-                setUserId(data.user_id);
-            })
-            .catch(error => {
-                // Handle any errors that occurred during the fetch request
-                toastr.info(`There was an error doing your request`);
-                console.error(error);
-            });
+            fetch(url)
+                .then(response => {
+                    if (response.ok) {
+                        return response.json();
+                    }
+                    throw new Error('Network response was not ok.');
+                })
+                .then(data => {
+                    // Handle the data from the response
+                    setUserId(data.user_id);
+                })
+                .catch(error => {
+                    // Handle any errors that occurred during the fetch request
+                    toastr.info(`There was an error doing your request`);
+                    console.error(error);
+                });
+        } else {
+            toastr.info("This mode is not supported yet")
+            // TODO: This gives a CORS error
+            // const mflBaseUrl = 'https://api.myfantasyleague.com';
+            //
+            // // Make API call to obtain league teams
+            // fetch(`${mflBaseUrl}/${leagueId}/export?TYPE=league&L=teams&JSON=1`)
+            //     .then(response => response.json())
+            //     .then(data => {
+            //         const leagueTeams = data.league.franchises;
+            //         console.log('League Teams:', leagueTeams);
+            //     })
+            //     .catch(error => {
+            //         console.error('Error fetching league teams:', error);
+            //     });
+            //
+            // // Make API call to obtain rosters for a specific week (e.g., week 1)
+            // const weekNumber = 1;
+            // fetch(`${mflBaseUrl}/${leagueId}/export?TYPE=rosters&L=${weekNumber}&JSON=1`)
+            //     .then(response => response.json())
+            //     .then(data => {
+            //         const rosters = data.rosters;
+            //         console.log('Rosters:', rosters);
+            //     })
+            //     .catch(error => {
+            //         console.error('Error fetching rosters:', error);
+            //     });
+
+        }
 
     }
 
@@ -123,10 +153,18 @@ export default function TeamInput() {
                 <option value="1">Sleeper</option>
                 <option value="2">MFL</option>
             </select>
-            <div className="input-group flex-nowrap my-2">
-                <span className="input-group-text" id="addon-wrapping">@</span>
-                <input type="text" className="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping" onChange={e => setUsername(e.target.value)} />
-            </div>
+            {leagueProvider === "1" && (
+                <div className="input-group flex-nowrap my-2">
+                    <span className="input-group-text" id="addon-wrapping">@</span>
+                    <input type="text" className="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping" onChange={e => setUsername(e.target.value)} />
+                </div>
+            )}
+            {leagueProvider === "2" && (
+                <div className="input-group flex-nowrap my-2">
+                    <span className="input-group-text" id="addon-wrapping">#</span>
+                    <input type="text" className="form-control" placeholder="League ID" aria-label="League ID" aria-describedby="addon-wrapping" onChange={e => setLeagueId(e.target.value)} />
+                </div>
+            )}
             <div className="my-2">
                 <button className="btn btn-primary" type="submit" onClick={submitForm}>Submit</button>
             </div>
