@@ -35,7 +35,7 @@ export default function TeamInput() {
             });
         });
 
-    }, []);
+    }, );
 
     useEffect(() => {
         if (userId) {
