@@ -18,7 +18,6 @@ export default function TeamInput() {
     const leagueId = useStore(state => state.leagueId);
     const setLeagueId = useStore(state => state.setLeagueId);
     const setLeagueTeams = useStore(state => state.setLeagueTeams);
-    const setUserTeam = useStore(state => state.setUserTeam);
     const setSFPlayers = useStore(state => state.setSFPlayers);
     const [leagues, setLeagues] = useState([]);
 
@@ -52,7 +51,6 @@ export default function TeamInput() {
                 .then(data => {
                     // Handle the data from the response
                     toastr.success('League Data Obtained')
-                    console.log(data);
                     setLeagues(data.map(x => {
                         return {league_id: x.league_id, league_name: x.name}
                     }));
@@ -78,8 +76,6 @@ export default function TeamInput() {
             })
             .then(data => {
                 // Handle the data from the response
-                toastr.success(`LeagueProvider: ${leagueProvider} Username: ${username}`);
-                console.log(data);
                 setUserId(data.user_id);
             })
             .catch(error => {
@@ -104,10 +100,7 @@ export default function TeamInput() {
             .then(data => {
                 // Handle the data from the response
                 toastr.success('League Roster Data Obtained')
-                console.log(data);
-                console.log(data.find(x => x.owner_id === userId));
                 setLeagueTeams(data);
-                setUserTeam(data.find(x => x.owner_id === userId));
                 navigate('/evaluate-team');
             })
             .catch(error => {
@@ -118,23 +111,23 @@ export default function TeamInput() {
     }
 
     return userId ? (<div>
-        <select className="form-select" aria-label="Select League" onChange={e => setLeagueId(e.target.value)}>
+        <select className="form-select my-2" aria-label="Select League" onChange={e => setLeagueId(e.target.value)}>
             <option selected>Select League</option>
             ${leagues.map(x => (<option value={x.league_id}>{x.league_name}</option>))}
         </select>
         <button className="btn btn-primary" onClick={getLeagueRosters}>Rank Teams</button>
     </div>) : (
         <div>
-            <select className="form-select" aria-label="League Provider" onChange={e => setLeagueProvider(e.target.value)}>
+            <select className="form-select my-2" aria-label="League Provider" onChange={e => setLeagueProvider(e.target.value)}>
                 <option selected>Select League Provider</option>
                 <option value="1">Sleeper</option>
                 <option value="2">MFL</option>
             </select>
-            <div className="input-group flex-nowrap">
+            <div className="input-group flex-nowrap my-2">
                 <span className="input-group-text" id="addon-wrapping">@</span>
                 <input type="text" className="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping" onChange={e => setUsername(e.target.value)} />
             </div>
-            <div className="col-12">
+            <div className="my-2">
                 <button className="btn btn-primary" type="submit" onClick={submitForm}>Submit</button>
             </div>
         </div>

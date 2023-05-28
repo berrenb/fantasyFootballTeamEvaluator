@@ -14,7 +14,7 @@ export const useStore = create((set, get) => ({
 	})),
 
 	// 1 = Sleeper 2 = MFL
-	leagueProvider: "1",
+	leagueProvider: null,
 
 	setLeagueProvider: (newLeagueProvider) => set(() => ({
 		leagueProvider: newLeagueProvider,
@@ -32,13 +32,6 @@ export const useStore = create((set, get) => ({
 
 	setLeagueTeams: (newLeagueTeams) => set(() => ({
 		leagueTeams: newLeagueTeams,
-	})),
-
-	// UserTeam
-	userTeam: {},
-
-	setUserTeam: (newUserTeam) => set(() => ({
-		userTeam: newUserTeam,
 	})),
 
 	sfPlayers: [],

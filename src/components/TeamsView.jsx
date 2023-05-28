@@ -6,7 +6,7 @@ import sleeperJSON from "../resources/players/sleeperPlayers.json";
 export default function TeamsView() {
     const leagueTeams = useStore((state) => state.leagueTeams);
     const [ownerNames, setOwnerNames] = useState({});
-    const [activeTeam, setActiveTeam] = useState({});
+    const [activeTeam, setActiveTeam] = useState(null);
     const playersArray = Object.values(sleeperJSON);
     const sfPlayers = useStore((state) => state.sfPlayers);
 
@@ -57,13 +57,14 @@ export default function TeamsView() {
             const overallPlayer = sfPlayers.find(
                 (x) =>
                     x.Name.toLowerCase()
-                        .replace(" ", "")
-                        .replace(".", "")
-                        .replace("-", "")
-                        .replace("'", "")
-                        .includes(search_name)
+                        .replaceAll(" ", "")
+                        .replaceAll(".", "")
+                        .replaceAll("-", "")
+                        .replaceAll("'", "")
+                        .includes(search_name.toLowerCase())
             );
-            const rbb_score = overallPlayer ? parseFloat(overallPlayer.RBBR) : 0;
+            // Should we assume 0 here or 5?
+            const rbb_score = overallPlayer ? parseFloat(overallPlayer.RBBR) : 5;
             return { player_name, rbb_score, position: foundPlayer.fantasy_positions[0] };
         });
         const overall_score = playerScores.reduce((sum, player) => sum + player.rbb_score, 0);
@@ -131,7 +132,7 @@ export default function TeamsView() {
                                 </tr>
                                 </thead>
                                 <tbody>
-                                {activeTeam.player_scores.sort((a, b) => b.rbb_score - a.rbb_score).map(player => (
+                                {activeTeam && activeTeam.player_scores.sort((a, b) => b.rbb_score - a.rbb_score).map(player => (
                                     <tr>
                                         <th scope="row">{player.player_name}</th>
                                         <td>{player.position}</td>

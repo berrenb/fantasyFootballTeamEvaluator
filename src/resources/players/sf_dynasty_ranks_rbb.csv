@@ -13,7 +13,7 @@ Overall Rank,Position,Name,Team,RBBR,FF Projection,Position Rank
 12,QB,Justin Fields,CHI,8.7,Franchise Cornerstone,8
 13,WR,Garrett Wilson,NYJ,8.7,Franchise Cornerstone,4
 15,RB,Jonathan Taylor,IND,8.6,Franchise Cornerstone,3
-16,RB,Christian McCaffery,SF,8.6,Franchise Cornerstone,2
+16,RB,Christian McCaffrey,SF,8.6,Franchise Cornerstone,2
 19,TE,Travis Kelce,KC,8.6,Franchise Cornerstone,1
 14,RB,Saquon Barkley,NYG,8.5,League Winner,4
 17,RB,Breece Hall,NYJ,8.4,League Winner,5
@@ -61,7 +61,7 @@ Overall Rank,Position,Name,Team,RBBR,FF Projection,Position Rank
 60,RB,Javonte Williams,DEN,7.7,Weekly Starter,17
 61,WR,Drake London,ATL,7.6,Weekly Starter,19
 62,WR,Treylon Burks,TEN,7.6,Weekly Starter,21
-63,TE,Dallas Godert,PHI,7.6,Weekly Starter,5
+63,TE,Dallas Goedert,PHI,7.6,Weekly Starter,5
 64,QB,Kirk Cousins,MIN,7.5,Weekly Starter,18
 65,WR,Jahan Dotson,WAS,7.6,Weekly Starter,20
 66,TE,Michael Mayer,LV,7.5,Weekly Starter,8
@@ -98,14 +98,14 @@ Overall Rank,Position,Name,Team,RBBR,FF Projection,Position Rank
 97,WR,Mike Williams,LAC,7.4,Weekly Starter,34
 98,TE,Trey McBride,ARI,7.3,Weekly Starter,10
 99,QB,Derek Carr,NO,7.2,Weekly Starter,24
-100,WR,Quentin Johnson,LAC,7.2,Weekly Starter,40
+100,WR,Quentin Johnston,LAC,7.2,Weekly Starter,40
 101,TE,Chigoziem Okonkwo,TEN,7.1,Weekly Starter,13
 102,RB,Cam Akers,LAR,7.2,Weekly Starter,27
 103,TE,Pat Freiermuth,PIT,7.2,Weekly Starter,12
 104,WR,Jonathan Mingo,CAR,7.3,Weekly Starter,39
 105,WR,Rashod Bateman,BAL,7.1,Weekly Starter,45
 106,QB,Desmond Ridder,ATL,7.2,Weekly Starter,25
-107,WR,Gabriel Davis,BUF,7.1,Weekly Starter,44
+107,WR,Gabe Davis,BUF,7.1,Weekly Starter,44
 108,WR,Jayden Reed,GB,7.1,Weekly Starter,43
 109,WR,JuJu Smith-Schuster,NE,7.1,Weekly Starter,42
 110,WR,Mecole Hardman,NYJ,7.2,Weekly Starter,41
@@ -134,7 +134,7 @@ Overall Rank,Position,Name,Team,RBBR,FF Projection,Position Rank
 133,TE,Luke Musgrave,GB,6.7,Flex Filler,17
 134,RB,Roschon Johnson,CHI,6.6,Flex Filler,37
 135,RB,James Cook,BUF,6.7,Flex Filler,36
-136,WR,Hollywood Brown,ARI,6.7,Flex Filler,55
+136,WR,Marquise Brown,ARI,6.7,Flex Filler,55
 137,WR,Jakobi Meyers,LV,6.7,Flex Filler,54
 138,WR,Kadarius Toney,KC,6.8,Flex Filler,53
 139,WR,Cedric Tillman,CLE,6.8,Flex Filler,52
@@ -182,7 +182,7 @@ Overall Rank,Position,Name,Team,RBBR,FF Projection,Position Rank
 181,WR,Parker Washington,JAC,6.4,Bench Depth,66
 182,WR,Tyler Boyd,CIN,6.4,Bench Depth,65
 183,RB,Tyjae Spears,TEN,6.5,Flex Filler,43
-184,RB,Jerrick McKinnon,KC,6.3,Bench Depth,56
+184,RB,Jerick McKinnon,KC,6.3,Bench Depth,56
 185,RB,Deuce Vaughn,DAL,6.3,Bench Depth,55
 186,RB,Jamaal Williams,NO,6.3,Bench Depth,54
 187,RB,Leonard Fournette,TB,6.3,Bench Depth,53
@@ -200,7 +200,7 @@ Overall Rank,Position,Name,Team,RBBR,FF Projection,Position Rank
 199,QB,Baker Mayfield,TB,6.5,Bench Depth,35
 200,WR,Darius Slayton,NYG,6.2,Bench Depth,81
 201,RB,D'Onta Foreman,CHI,6.2,Bench Depth,63
-202,RB,Christopher Rodriguez,WAS,6.2,Bench Depth,62
+202,RB,Chris Rodriguez,WAS,6.2,Bench Depth,62
 203,TE,Elijah Higgins,MIA,6.2,Bench Depth,35
 204,RB,Nyheim Hines,BUF,6.2,Bench Depth,61
 205,WR,A.T. Perry,NO,6.2,Bench Depth,80
@@ -211,14 +211,14 @@ Overall Rank,Position,Name,Team,RBBR,FF Projection,Position Rank
 210,WR,Curtis Samuel,WAS,6.2,Bench Depth,76
 211,RB,Kyren Williams,LAR,6.2,Bench Depth,59
 212,RB,Kareem Hunt,CLE,6.2,Bench Depth,58
-213,RB,Ezekiel Elliot,DAL,6.3,Bench Depth,57
+213,RB,Ezekiel Elliott,DAL,6.3,Bench Depth,57
 214,TE,Cameron Latu,SF,6.2,Bench Depth,34
 215,TE,Luke Schoonmaker,DAL,6.2,Bench Depth,33
 216,WR,Xavier Hutchinson,HOU,6.1,Bench Depth,83
 217,TE,Irv Smith,MIN,6.1,Bench Depth,38
 218,RB,Zonovan Knight,NYJ,6.1,Bench Depth,68
 219,QB,Matt Corral,CAR,5.8,Taxi Squad Stash,39
-220,RB,Tyler Allegier,ATL,6.1,Bench Depth,67
+220,RB,Tyler Allgeier,ATL,6.1,Bench Depth,67
 221,TE,Jeremy Ruckert,NYJ,6.1,Bench Depth,37
 222,TE,Irv Smith Jr.,CIN,6.2,Bench Depth,36
 223,WR,Trey Palmer,TB,6.1,Bench Depth,82
@@ -256,7 +256,7 @@ Overall Rank,Position,Name,Team,RBBR,FF Projection,Position Rank
 255,TE,Daniel Bellinger,NYG,5.8,Taxi Squad Stash,44
 256,TE,Cole Turner,WAS,5.8,Taxi Squad Stash,43
 257,TE,Peyton Hendershot,DAL,5.8,Taxi Squad Stash,42
-258,TE,Albert Okwiegbunam,DEN,5.8,Taxi Squad Stash,41
+258,TE,Albert Okwuegbunam,DEN,5.8,Taxi Squad Stash,41
 259,QB,Jameis Winston,NO,5.6,Taxi Squad Stash,41
 260,QB,Davis Mills,HOU,5.8,Taxi Squad Stash,40
 261,TE,Harrison Bryant,CLE,5.8,Taxi Squad Stash,40
@@ -321,7 +321,7 @@ Overall Rank,Position,Name,Team,RBBR,FF Projection,Position Rank
 320,WR,Marvin Jones,JAC,5.5,Waiver Wire Warrior,137
 321,WR,Breshard Perriman,TB,5.5,Waiver Wire Warrior,136
 322,WR,Jauan Jennings,SF,5.5,Waiver Wire Warrior,135
-323,WR,KeVontae Turpin,DAL,5.5,Waiver Wire Warrior,134
+323,WR,KaVontae Turpin,DAL,5.5,Waiver Wire Warrior,134
 324,WR,Denzel Mims,NYJ,5.5,Waiver Wire Warrior,133
 325,WR,Racey McMath,TEN,5.5,Waiver Wire Warrior,132
 326,WR,Josh Reynolds,DET,5.5,Waiver Wire Warrior,131
@@ -358,7 +358,7 @@ Overall Rank,Position,Name,Team,RBBR,FF Projection,Position Rank
 358,RB,Ke'Shawn Vaughn,TB,5.2,Waiver Wire Warrior,104
 359,RB,DeeJay Dallas,SEA,5.2,Waiver Wire Warrior,103
 360,RB,Michael Carter,NYJ,5.2,Waiver Wire Warrior,102
-361,RB,Latavious Murray,DEN,5.3,Waiver Wire Warrior,101
+361,RB,Latavius Murray,DEN,5.3,Waiver Wire Warrior,101
 362,WR,Danny Gray,SF,5.5,Waiver Wire Warrior,147
 363,WR,Scott Miller,ATL,5.5,Waiver Wire Warrior,148
 364,RB,Benny Snell,PIT,5,Waiver Wire Warrior,112
@@ -371,7 +371,6 @@ Overall Rank,Position,Name,Team,RBBR,FF Projection,Position Rank
 372,TE,Will Dissly,SEA,4.8,Waiver Wire Warrior,66
 373,TE,Mo Alie-Cox,IND,4.5,Waiver Wire Warrior,67
 374,RB,Caleb Huntley,ATL,4.5,Waiver Wire Warrior,113
-,,,,,,
-,WR,Tim Patrick,DEN,5,Waiver Wire Warrior,150
-,WR,Donovan Peoples-Jones,CLE,5.2,Waiver Wire Warrior,149
-,TE,Brevin Jordan,HOU,4.5,Waiver Wire Warrior,68
+375,WR,Tim Patrick,DEN,5,Waiver Wire Warrior,150
+376,WR,Donovan Peoples-Jones,CLE,5.2,Waiver Wire Warrior,149
+377,TE,Brevin Jordan,HOU,4.5,Waiver Wire Warrior,68
