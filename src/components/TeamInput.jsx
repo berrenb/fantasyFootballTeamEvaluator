@@ -6,6 +6,7 @@ import {useStore} from "../store/store";
 import { useNavigate } from 'react-router-dom';
 import superFlexRankings from "../resources/players/sf_dynasty_ranks_rbb.csv";
 import Papa from "papaparse";
+import { get } from '../api/mfl.js';
 
 
 export default function TeamInput() {
@@ -19,6 +20,7 @@ export default function TeamInput() {
     const setLeagueId = useStore(state => state.setLeagueId);
     const setLeagueTeams = useStore(state => state.setLeagueTeams);
     const setSFPlayers = useStore(state => state.setSFPlayers);
+    const [mflTeamObj, setmflTeamObj] = useState([]);
     const [leagues, setLeagues] = useState([]);
 
     const navigate = useNavigate();
@@ -35,6 +37,38 @@ export default function TeamInput() {
         });
 
     }, );
+
+    useEffect(() => {
+        const fetchRosterData = async () => {
+            try {
+                const rosterDataResponse = await get(`export?TYPE=rosters&L=${leagueId}&APIKEY=&FRANCHISE=&W=&JSON=1`);
+                const leaguePlayersResponse = await get(`export?TYPE=players&L=${leagueId}&APIKEY=&DETAILS=&SINCE=&PLAYERS=&JSON=1`)
+                let oldMFLTeamsObj = mflTeamObj;
+                // Get the rosters for all of the teams
+                oldMFLTeamsObj.forEach(x => {
+                    // Get a team's roster
+                    const playerRoster = rosterDataResponse.rosters.franchise.find(r => r.id === x.owner_id).player;
+                    // Change ids to player_name
+                    playerRoster.forEach(pr => {
+                        const lp = leaguePlayersResponse.players.player.find(p => p.id === pr.id);
+                        const name = lp.name.replaceAll("DEVY", "").replaceAll("*", "").split(", ");
+                        pr.player_name = name[1] + " " + name[0];
+                        pr.position = lp.position;
+                    })
+                    x.players = playerRoster;
+                })
+                setLeagueTeams(mflTeamObj);
+                navigate('/evaluate-team');
+            } catch (error) {
+                toastr.error("There was a problem with your request. See console")
+                console.error(error);
+            }
+        };
+
+        if (leagueId !== "" && mflTeamObj.length > 0) {
+            fetchRosterData();
+        }
+    }, [mflTeamObj, leagueId, setLeagueTeams, navigate]);
 
     useEffect(() => {
         if (userId) {
@@ -85,33 +119,22 @@ export default function TeamInput() {
                     console.error(error);
                 });
         } else {
-            toastr.info("This mode is not supported yet")
-            // TODO: This gives a CORS error
-            // const mflBaseUrl = 'https://api.myfantasyleague.com';
-            //
-            // // Make API call to obtain league teams
-            // fetch(`${mflBaseUrl}/${leagueId}/export?TYPE=league&L=teams&JSON=1`)
-            //     .then(response => response.json())
-            //     .then(data => {
-            //         const leagueTeams = data.league.franchises;
-            //         console.log('League Teams:', leagueTeams);
-            //     })
-            //     .catch(error => {
-            //         console.error('Error fetching league teams:', error);
-            //     });
-            //
-            // // Make API call to obtain rosters for a specific week (e.g., week 1)
-            // const weekNumber = 1;
-            // fetch(`${mflBaseUrl}/${leagueId}/export?TYPE=rosters&L=${weekNumber}&JSON=1`)
-            //     .then(response => response.json())
-            //     .then(data => {
-            //         const rosters = data.rosters;
-            //         console.log('Rosters:', rosters);
-            //     })
-            //     .catch(error => {
-            //         console.error('Error fetching rosters:', error);
-            //     });
+            toastr.info("This mode may take a bit")
 
+            const fetchLeagueData = async () => {
+                try {
+                    const response = await get(`export?TYPE=league&L=${leagueId}&APIKEY=&JSON=1`);
+                    setmflTeamObj(response.league.franchises.franchise.map(x => {
+                        return { owner_name: x.name, owner_id: x.id, players: [], isMFL: true }
+                    }))
+                    toastr.success("Success!!!")
+                } catch (error) {
+                    toastr.error("There was a problem with your request. See console")
+                    console.error(error);
+                }
+            };
+
+            fetchLeagueData();
         }
 
     }
@@ -129,7 +152,7 @@ export default function TeamInput() {
             })
             .then(data => {
                 // Handle the data from the response
-                toastr.success('League Roster Data Obtained')
+                toastr.success('League Roster Data Obtained');
                 setLeagueTeams(data);
                 navigate('/evaluate-team');
             })

@@ -9,26 +9,31 @@ export default function TeamsView() {
     const [activeTeam, setActiveTeam] = useState(null);
     const playersArray = Object.values(sleeperJSON);
     const sfPlayers = useStore((state) => state.sfPlayers);
+    const leagueProvider = useStore((state) => state.leagueProvider);
 
     useEffect(() => {
         // Fetch and store the user display names for each owner ID
         leagueTeams.forEach((team) => {
-            userDisplayNameFetch(team.owner_id)
-                .then((displayName) => {
-                    setOwnerNames((prevOwnerNames) => ({
-                        ...prevOwnerNames,
-                        [team.owner_id]: displayName,
-                    }));
-                })
-                .catch((error) => {
-                    console.error(error);
-                    setOwnerNames((prevOwnerNames) => ({
-                        ...prevOwnerNames,
-                        [team.owner_id]: "N/A",
-                    }));
-                });
+            if (leagueProvider === "1") {
+                userDisplayNameFetch(team.owner_id)
+                    .then((displayName) => {
+                        setOwnerNames((prevOwnerNames) => ({
+                            ...prevOwnerNames,
+                            [team.owner_id]: displayName,
+                        }));
+                    })
+                    .catch((error) => {
+                        console.error(error);
+                        setOwnerNames((prevOwnerNames) => ({
+                            ...prevOwnerNames,
+                            [team.owner_id]: "N/A",
+                        }));
+                    });
+            } else {
+                setOwnerNames(leagueTeams);
+            }
         });
-    }, [leagueTeams]);
+    }, [leagueProvider, leagueTeams]);
 
     function userDisplayNameFetch(owner_id) {
         const url = `https://api.sleeper.app/v1/user/${owner_id}/`;
@@ -49,23 +54,41 @@ export default function TeamsView() {
     }
 
     const teamScores = leagueTeams.map((team) => {
-        const owner_name = ownerNames[team.owner_id];
+        const owner_name = ownerNames[team.owner_id] || team.owner_name;
         const playerScores = team.players.map((player) => {
-            const foundPlayer = playersArray.find((x) => x.player_id === player);
-            const player_name = foundPlayer.full_name;
-            const search_name = foundPlayer.search_full_name;
-            const overallPlayer = sfPlayers.find(
-                (x) =>
-                    x.Name.toLowerCase()
-                        .replaceAll(" ", "")
-                        .replaceAll(".", "")
-                        .replaceAll("-", "")
-                        .replaceAll("'", "")
-                        .includes(search_name.toLowerCase())
-            );
-            // Should we assume 0 here or 5?
-            const rbb_score = overallPlayer ? parseFloat(overallPlayer.RBBR) : 5;
-            return { player_name, rbb_score, position: foundPlayer.fantasy_positions[0] };
+            if (leagueProvider === "1") {
+                const foundPlayer = playersArray.find((x) => x.player_id === player);
+                const player_name = foundPlayer.full_name;
+                const search_name = foundPlayer.search_full_name;
+                const overallPlayer = sfPlayers.find(
+                    (x) =>
+                        x.Name.toLowerCase()
+                            .replaceAll(" ", "")
+                            .replaceAll(".", "")
+                            .replaceAll("-", "")
+                            .replaceAll("'", "")
+                            .includes(search_name.toLowerCase())
+                );
+                // Should we assume 0 here or 5?
+                const rbb_score = overallPlayer ? parseFloat(overallPlayer.RBBR) : 5;
+                return {player_name, rbb_score, position: foundPlayer.fantasy_positions[0]};
+            } else {
+                const overallPlayer = sfPlayers.find(
+                    (x) =>
+                        x.Name.toLowerCase()
+                            .replaceAll(" ", "")
+                            .replaceAll(".", "")
+                            .replaceAll("-", "")
+                            .replaceAll("'", "")
+                            .includes(player.player_name.toLowerCase().replaceAll(" ", "")
+                                .replaceAll(".", "")
+                                .replaceAll("-", "")
+                                .replaceAll("'", ""))
+                );
+                // Should we assume 0 here or 5?
+                const rbb_score = overallPlayer ? parseFloat(overallPlayer.RBBR) : 5;
+                return { player_name: player.player_name, rbb_score: rbb_score, position: player.position }
+            }
         });
         const overall_score = playerScores.reduce((sum, player) => sum + player.rbb_score, 0);
         return { owner_name, player_scores: playerScores, overall_score: overall_score.toFixed(2), owner_id: team.owner_id };
@@ -96,7 +119,7 @@ export default function TeamsView() {
 
 
     return (
-        <div className="container-sm text-black">
+        <div className="container-sm text-black w-100 h-100 overflow-scroll">
             <div className="row">
                 {[...teamScores]
                     .sort((a, b) => b.overall_score - a.overall_score)
