@@ -119,7 +119,7 @@ export default function TeamsView() {
 
 
     return (
-        <div className="container-sm text-black w-100 h-100 overflow-scroll">
+        <div className="container-sm text-black h-100 overflow-scroll">
             <div className="row">
                 {[...teamScores]
                     .sort((a, b) => b.overall_score - a.overall_score)
