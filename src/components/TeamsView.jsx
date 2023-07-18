@@ -8,7 +8,7 @@ export default function TeamsView() {
     const [ownerNames, setOwnerNames] = useState({});
     const [activeTeam, setActiveTeam] = useState(null);
     const playersArray = Object.values(sleeperJSON);
-    const sfPlayers = useStore((state) => state.sfPlayers);
+    const remainingPlayers =  [...useStore((state) => state.sfPlayers)];
     const leagueProvider = useStore((state) => state.leagueProvider);
 
     useEffect(() => {
@@ -60,20 +60,21 @@ export default function TeamsView() {
                 const foundPlayer = playersArray.find((x) => x.player_id === player);
                 const player_name = foundPlayer.full_name;
                 const search_name = foundPlayer.search_full_name;
-                const overallPlayer = sfPlayers.find(
-                    (x) =>
-                        x.Name.toLowerCase()
-                            .replaceAll(" ", "")
-                            .replaceAll(".", "")
-                            .replaceAll("-", "")
-                            .replaceAll("'", "")
-                            .includes(search_name.toLowerCase())
+                const foundIndex = remainingPlayers.findIndex((x) =>
+                    x.Name.toLowerCase()
+                        .replaceAll(" ", "")
+                        .replaceAll(".", "")
+                        .replaceAll("-", "")
+                        .replaceAll("'", "")
+                        .includes(search_name.toLowerCase())
                 );
+                const overallPlayer = remainingPlayers[foundIndex];
+                remainingPlayers.splice(foundIndex, 1);
                 // Should we assume 0 here or 5?
                 const rbb_score = overallPlayer ? parseFloat(overallPlayer.RBBR) : 5;
                 return {player_name, rbb_score, position: foundPlayer.fantasy_positions[0]};
             } else {
-                const overallPlayer = sfPlayers.find(
+                const foundIndex = remainingPlayers.findIndex(
                     (x) =>
                         x.Name.toLowerCase()
                             .replaceAll(" ", "")
@@ -85,6 +86,8 @@ export default function TeamsView() {
                                 .replaceAll("-", "")
                                 .replaceAll("'", ""))
                 );
+                const overallPlayer = remainingPlayers[foundIndex];
+                remainingPlayers.splice(foundIndex, 1);
                 // Should we assume 0 here or 5?
                 const rbb_score = overallPlayer ? parseFloat(overallPlayer.RBBR) : 5;
                 return { player_name: player.player_name, rbb_score: rbb_score, position: player.position }
@@ -120,6 +123,7 @@ export default function TeamsView() {
 
     return (
         <div className="container-sm text-black h-100 overflow-scroll">
+            <button className="btn btn-success" data-bs-toggle="modal" data-bs-target="#availablePlayersModal">View Available Players</button>
             <div className="row">
                 {[...teamScores]
                     .sort((a, b) => b.overall_score - a.overall_score)
@@ -151,7 +155,7 @@ export default function TeamsView() {
                                 <tr>
                                     <th scope="col">Name</th>
                                     <th scope="col">Position</th>
-                                    <th scope="col">RBB Score</th>
+                                    <th scope="col">RBBR</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -160,6 +164,41 @@ export default function TeamsView() {
                                         <th scope="row">{player.player_name}</th>
                                         <td>{player.position}</td>
                                         <td>{player.rbb_score}</td>
+                                    </tr>
+                                ))}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* Available Players Modal */}
+            <div className="modal fade" id="availablePlayersModal" tabIndex="-1" aria-labelledby="availablePlayersModalLabel"
+                 aria-hidden="true">
+                <div className="modal-dialog">
+                    <div className="modal-content">
+                        <div className="modal-header">
+                            <h5 className="modal-title" id="availablePlayersModalLabel">Available Players</h5>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                        </div>
+                        <div className="modal-body">
+                            <table className="table table-striped">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Team</th>
+                                    <th scope="col">Position</th>
+                                    <th scope="col">RBBR</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                {remainingPlayers && remainingPlayers.map(player => (
+                                    <tr>
+                                        <th scope="row">{player.Name}</th>
+                                        <th>{player.Team}</th>
+                                        <td>{player.Position}</td>
+                                        <td>{player.RBBR}</td>
                                     </tr>
                                 ))}
                                 </tbody>
