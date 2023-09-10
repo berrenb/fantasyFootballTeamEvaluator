@@ -5,7 +5,7 @@ export const get = async (endpoint) => {
     try {
         const response = await axios.get(`https://proxy.cors.sh/https://api.myfantasyleague.com/2023/${endpoint}`, {
             headers: {
-                'x-cors-api-key': 'temp_5aa33a07659ba5a066f87385e1042680',
+                'x-cors-api-key': 'temp_043b36aa4ade403ee2a17e620ea03c8c',
             }
         })
         return response.data;

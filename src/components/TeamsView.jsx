@@ -8,7 +8,7 @@ export default function TeamsView() {
     const [ownerNames, setOwnerNames] = useState({});
     const [activeTeam, setActiveTeam] = useState(null);
     const playersArray = Object.values(sleeperJSON);
-    const remainingPlayers =  [...useStore((state) => state.sfPlayers)];
+    const allPlayers =  [...useStore((state) => state.sfPlayers)];
     const leagueProvider = useStore((state) => state.leagueProvider);
 
     useEffect(() => {
@@ -60,7 +60,7 @@ export default function TeamsView() {
                 const foundPlayer = playersArray.find((x) => x.player_id === player);
                 const player_name = foundPlayer.full_name;
                 const search_name = foundPlayer.search_full_name;
-                const foundIndex = remainingPlayers.findIndex((x) =>
+                const foundIndex = allPlayers.findIndex((x) =>
                     x.Name.toLowerCase()
                         .replaceAll(" ", "")
                         .replaceAll(".", "")
@@ -68,13 +68,12 @@ export default function TeamsView() {
                         .replaceAll("'", "")
                         .includes(search_name.toLowerCase())
                 );
-                const overallPlayer = remainingPlayers[foundIndex];
-                remainingPlayers.splice(foundIndex, 1);
+                const overallPlayer = allPlayers[foundIndex];
                 // Should we assume 0 here or 5?
                 const rbb_score = overallPlayer ? parseFloat(overallPlayer.RBBR) : 5;
                 return {player_name, rbb_score, position: foundPlayer.fantasy_positions[0]};
             } else {
-                const foundIndex = remainingPlayers.findIndex(
+                const foundIndex = allPlayers.findIndex(
                     (x) =>
                         x.Name.toLowerCase()
                             .replaceAll(" ", "")
@@ -86,8 +85,7 @@ export default function TeamsView() {
                                 .replaceAll("-", "")
                                 .replaceAll("'", ""))
                 );
-                const overallPlayer = remainingPlayers[foundIndex];
-                remainingPlayers.splice(foundIndex, 1);
+                const overallPlayer = allPlayers[foundIndex];
                 // Should we assume 0 here or 5?
                 const rbb_score = overallPlayer ? parseFloat(overallPlayer.RBBR) : 5;
                 return { player_name: player.player_name, rbb_score: rbb_score, position: player.position }
@@ -193,14 +191,14 @@ export default function TeamsView() {
                                 </tr>
                                 </thead>
                                 <tbody>
-                                {remainingPlayers && remainingPlayers.map(player => (
-                                    <tr>
-                                        <th scope="row">{player.Name}</th>
-                                        <th>{player.Team}</th>
-                                        <td>{player.Position}</td>
-                                        <td>{player.RBBR}</td>
-                                    </tr>
-                                ))}
+                                {/*{allPlayers && allPlayers.map(player => (*/}
+                                {/*    <tr>*/}
+                                {/*        <th scope="row">{player.Name}</th>*/}
+                                {/*        <th>{player.Team}</th>*/}
+                                {/*        <td>{player.Position}</td>*/}
+                                {/*        <td>{player.RBBR}</td>*/}
+                                {/*    </tr>*/}
+                                {/*))}*/}
                                 </tbody>
                             </table>
                         </div>
