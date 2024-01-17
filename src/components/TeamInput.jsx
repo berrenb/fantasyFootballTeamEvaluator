@@ -73,7 +73,7 @@ export default function TeamInput() {
     useEffect(() => {
         if (userId) {
             // Get leagues on Sleeper
-            const url = `https://api.sleeper.app/v1/user/${userId}/leagues/nfl/2023`; // Replace with your desired URL
+            const url = `https://api.sleeper.app/v1/user/${userId}/leagues/nfl/2024`; // Replace with your desired URL
 
             fetch(url)
                 .then(response => {

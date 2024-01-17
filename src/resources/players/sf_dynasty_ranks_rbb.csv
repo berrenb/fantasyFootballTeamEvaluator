@@ -1,618 +1,774 @@
-Rank,RBBR,Position,Name,Team,,,,
-2,9.3,QB,Josh Allen,BUF,Generational,2,,
-1,9.3,QB,Patrick Mahomes,KC,Generational,1,,
-3,9.2,QB,Justin Herbert,LAC,Generational,3,,
-4,9.2,WR,Justin Jefferson,MIN,Generational,5,,
-5,9.2,QB,Jalen Hurts,PHI,Generational,4,,
-6,9.1,RB,Bijan Robinson,ATL,Generational,7,,
-7,9.1,QB,Lamar Jackson,BAL,Generational,6,,
-8,9,QB,Joe Burrow,CIN,Generational,8,,
-9,8.9,WR,Ja'Marr Chase,CIN,Franchise Cornerstone,10,,
-10,8.9,QB,Trevor Lawrence,JAC,Franchise Cornerstone,9,,
-11,8.8,QB,Caleb Williams,USC,Franchise Cornerstone,,1,1
-12,8.7,WR,Garrett Wilson,NYJ,Franchise Cornerstone,12,,
-13,8.7,QB,Justin Fields,CHI,Franchise Cornerstone,11,,
-14,8.6,TE,Travis Kelce,KC,Franchise Cornerstone,15,,
-15,8.6,RB,Saquon Barkley,NYG,Franchise Cornerstone,13,,
-16,8.6,RB,Christian McCaffrey,SF,Franchise Cornerstone,14,,
-17,8.5,WR,Marvin Harrison Jr,Ohio State,Franchise Cornerstone,,2,2
-18,8.5,WR,AJ Brown,PHI,League Winner,17,,
-19,8.5,WR,CeeDee Lamb,DAL,Franchise Cornerstone,16,,
-20,8.4,WR,Chris Olave,NO,League Winner,20,,
-21,8.4,WR,Jaylen Waddle,MIA,League Winner,19,,
-22,8.4,QB,Anthony Richardson,IND,League Winner,18,,
-23,8.3,RB,Jahmyr Gibbs,DET,League Winner,22,,
-24,8.3,WR,Tyreek Hill,MIA,League Winner,24,,
-25,8.3,QB,Bryce Young,CAR,League Winner,21,,
-26,8.3,RB,Breece Hall,NYJ,League Winner,23,,
-27,8.2,TE,Brock Bowers,Georgia,League Winner,,3,3
-28,8.2,WR,Amon-Ra St. Brown,DET,League Winner,31,,
-29,8.2,RB,Nick Chubb,CLE,League Winner,26,,
-30,8.2,TE,Mark Andrews,BAL,League Winner,33,,
-31,8.2,WR,Tee Higgins,CIN,League Winner,32,,
-32,8.2,QB,CJ Stroud,HOU,League Winner,25,,
-33,8.2,RB,Travis Etienne,JAC,League Winner,27,,
-34,8.2,RB,Austin Ekeler,LAC,League Winner,28,,
-35,8.2,RB,Najee Harris,PIT,League Winner,29,,
-36,8.2,RB,Jonathan Taylor,IND,League Winner,30,,
-37,8.1,QB,Drake Maye,North Carolina,League Winner,,4,4
-38,8.1,RB,Kenneth Walker,SEA,League Winner,35,,
-39,8.1,WR,Davante Adams,LV,League Winner,39,,
-40,8.1,WR,Jordan Addison,MIN,League Winner,38,,
-41,8.1,TE,Kyle Pitts,ATL,League Winner,40,,
-42,8.1,RB,Derrick Henry,TEN,League Winner,36,,
-43,8.1,QB,Dak Prescott,DAL,League Winner,34,,
-44,8.1,RB,Rhamondre Stevenson,NE,League Winner,37,,
-45,8,WR,Jaxon Smith-Njigba,SEA,League Winner,43,,
-46,8,WR,Stefon Diggs,BUF,League Winner,42,,
-47,8,WR,Drake London,ATL,Weekly Starter,45,,
-48,8,WR,DK Metcalf,SEA,Weekly Starter,44,,
-49,8,QB,Kirk Cousins,MIN,League Winner,41,,
-50,7.9,WR,Cooper Kupp,LAR,Weekly Starter,49,,
-51,7.9,WR,Keenan Allen,LAC,Weekly Starter,48,,
-52,7.9,QB,Deshaun Watson,CLE,Weekly Starter,46,,
-53,7.9,WR,Devonta Smith,PHI,Weekly Starter,50,,
-54,7.9,RB,Josh Jacobs,LV,Weekly Starter,47,,
-55,7.8,QB,Aaron Rodgers,NYJ,Weekly Starter,51,,
-56,7.8,TE,T.J. Hockenson,MIN,Weekly Starter,54,,
-57,7.8,WR,DJ Moore,CHI,Weekly Starter,53,,
-58,7.8,RB,JK Dobbins,BAL,Weekly Starter,52,,
-59,7.7,QB,JJ McCarthy,Michigan,Weekly Starter,,5,5
-60,7.7,RB,Nick Singleton,Penn State,Weekly Starter,,,6
-61,7.7,WR,Michael Pittman,IND,Weekly Starter,60,,
-62,7.7,RB,Devon Achane,MIA,Weekly Starter,56,,
-63,7.7,QB,Tua Tagovailoa,MIA,Weekly Starter,55,,
-64,7.7,WR,Deebo Samuel,SF,Weekly Starter,61,,
-65,7.7,RB,Rachaad White,TB,Weekly Starter,58,,
-66,7.7,TE,Evan Engram,JAC,Weekly Starter,62,,
-67,7.7,RB,Javonte Williams,DEN,Weekly Starter,59,,
-68,7.7,RB,Tony Pollard,DAL,Weekly Starter,57,,
-69,7.6,RB,Raheim Sanders,Arkansas,Weekly Starter,,8,9
-70,7.6,RB,Donovan Edwards,Michigan,Weekly Starter,,6,7
-71,7.6,WR,Malik Nabers,LSU,Weekly Starter,,7,8
-72,7.6,RB,Quinshon Judkins,Mississippi,Weekly Starter,,,10
-73,7.6,RB,Zach Charbonnet,SEA,Weekly Starter,66,,
-74,7.6,RB,Miles Sanders,CAR,Weekly Starter,67,,
-75,7.6,WR,Amari Cooper,CLE,Weekly Starter,69,,
-76,7.6,WR,Jahan Dotson,WAS,Weekly Starter,68,,
-77,7.6,TE,Dallas Godert,PHI,Weekly Starter,75,,
-78,7.6,WR,Christian Watson,GB,Weekly Starter,74,,
-79,7.6,WR,Marvin Mims,DEN,Weekly Starter,73,,
-80,7.6,WR,George Pickens,PIT,Weekly Starter,72,,
-81,7.6,WR,Zay Flowers,BAL,Weekly Starter,71,,
-82,7.6,WR,Jalin Hyatt,NYG,Weekly Starter,70,,
-83,7.6,QB,Daniel Jones,NYG,Weekly Starter,65,,
-84,7.6,QB,Kyler Murray,ARI,Weekly Starter,64,,
-85,7.6,QB,Kenny Pickett,PIT,Weekly Starter,63,,
-86,7.5,WR,Emeka Egbuka,Ohio State,Weekly Starter,,10,12
-87,7.5,RB,Braelon Allen,Wisconsin,Weekly Starter,,9,11
-88,7.5,TE,Michael Mayer,LV,Weekly Starter,80,,
-89,7.5,TE,George Kittle,SF,Weekly Starter,79,,
-90,7.5,TE,Darren Waller,NYG,Weekly Starter,78,,
-91,7.5,WR,Terry McLaurin,WAS,Weekly Starter,77,,
-92,7.5,RB,Aaron Jones,GB,Weekly Starter,76,,
-93,7.4,QB,Quinn Ewers,Texas,Weekly Starter,,11,13
-94,7.4,RB,TreVeyon Henderson,Ohio State,Weekly Starter,,12,14
-95,7.4,WR,Troy Franklin,Oregon,Weekly Starter,,13,15
-96,7.4,RB,Justice Haynes,Alabama,Weekly Starter,,,19
-97,7.4,QB,Drew Allar,Penn State,Weekly Starter,,,16
-98,7.4,QB,Conner Weigman,Texas A&M,Weekly Starter,,,18
-99,7.4,QB,Cade Klubnik,Clemson,Weekly Starter,,,17
-100,7.4,TE,Greg Dulcich,DEN,Weekly Starter,90,,
-101,7.4,WR,Mike Williams,LAC,Weekly Starter,89,,
-102,7.4,WR,Christian Kirk,JAC,Weekly Starter,88,,
-103,7.4,WR,Skyy Moore,KC,Weekly Starter,87,,
-104,7.4,WR,Brandon Aiyuk,SF,Weekly Starter,86,,
-105,7.4,WR,Treylon Burks,TEN,Weekly Starter,85,,
-106,7.4,RB,James Cook,BUF,Weekly Starter,84,,
-107,7.4,RB,D'Andre Swift,PHI,Weekly Starter,83,,
-108,7.4,RB,Cam Akers,LAR,Weekly Starter,82,,
-109,7.4,QB,Mac Jones,NE,Weekly Starter,81,,
-110,7.3,QB,Dante Moore,UCLA,Weekly Starter,,,21
-111,7.3,WR,Keon Coleman,Florida State,Weekly Starter,,14,20
-112,7.3,TE,Dalton Kincaid,BUF,Weekly Starter,98,,
-113,7.3,TE,Chigoziem Okonkwo,TEN,Weekly Starter,97,,
-114,7.3,WR,Alec Pierce,IND,Weekly Starter,96,,
-115,7.3,WR,Jameson Williams,DET,Weekly Starter,95,,
-116,7.3,RB,Alvin Kamara,NO,Weekly Starter,94,,
-117,7.3,RB,Joe Mixon,CIN,Weekly Starter,93,,
-118,7.3,QB,Jared Goff,DET,Weekly Starter,92,,
-119,7.3,QB,Russell Wilson,DEN,Weekly Starter,91,,
-120,7.2,WR,Xavier Worthy,Texas,Weekly Starter,,16,23
-121,7.2,RB,Will Shipley,Clemson,Weekly Starter,,15,22
-122,7.2,RB,Cedric Baxter Jr.,Texas,Weekly Starter,,,29
-123,7.2,WR,Zachariah Branch,USC,Weekly Starter,,,28
-124,7.2,QB,Joe Milton,Tennessee,Weekly Starter,,17,24
-125,7.2,RB,Devin Neal,Kansas,Weekly Starter,,18,25
-126,7.2,WR,Luther Burden,Missouri,Weekly Starter,,,26
-127,7.2,WR,Evan Stewart,Texas A&M,Weekly Starter,,,27
-128,7.2,TE,Sam LaPorta,DET,Weekly Starter,110,,
-129,7.2,TE,Pat Freiermuth,PIT,Weekly Starter,109,,
-130,7.2,TE,Trey McBride,ARI,Weekly Starter,108,,
-131,7.2,WR,Diontae Johnson,PIT,Weekly Starter,107,,
-132,7.2,WR,Elijah Moore,CLE,Weekly Starter,106,,
-133,7.2,WR,Jerry Jeudy,DEN,Weekly Starter,105,,
-134,7.2,WR,Mike Evans,TB,Weekly Starter,104,,
-135,7.2,WR,Chris Godwin,TB,Weekly Starter,103,,
-136,7.2,RB,Alexander Mattison,MIN,Weekly Starter,102,,
-137,7.2,RB,Dameon Pierce,HOU,Weekly Starter,101,,
-138,7.2,QB,Brock Purdy,SF,Weekly Starter,100,,
-139,7.2,QB,Sam Howell,WAS,Weekly Starter,99,,
-140,7.1,WR,Beaux Collins,Clemson,Weekly Starter,,19,30
-141,7.1,RB,Rueben Owens,Texas A&M,Weekly Starter,,,33
-142,7.1,QB,Jackson Arnold,Oklahoma,Weekly Starter,,,32
-143,7.1,WR,Antwane Wells Jr.,South Carolina,Weekly Starter,,20,31
-144,7.1,WR,Calvin Ridley,JAC,Weekly Starter,116,,
-145,7.1,WR,Tyler Lockett,SEA,Weekly Starter,115,,
-146,7.1,WR,Gabriel Davis,BUF,Weekly Starter,114,,
-146,7.1,WR,Gabe Davis,BUF,Weekly Starter,114,,
-147,7.1,WR,Josh Downs,IND,Weekly Starter,113,,
-148,7.1,WR,JuJu Smith-Schuster,NE,Weekly Starter,112,,
-149,7.1,QB,Derek Carr,NO,Weekly Starter,111,,
-150,7,QB,Nicholaus Iamaleava,Tennessee,Weekly Starter,,,37
-151,7,QB,Bo Nix,Oregon,Weekly Starter,,21,34
-152,7,WR,Carnell Tate,Ohio State,Weekly Starter,,,39
-153,7,QB,Arch Manning,Texas,Weekly Starter,,,38
-154,7,QB,Shedeur Sanders,Colorado,Weekly Starter,,22,35
-155,7,QB,Malachi Nelson,USC,Weekly Starter,,,40
-156,7,RB,Trevor Etienne,Florida,Weekly Starter,,,36
-157,7,RB,Isiah Pacheco,KC,Weekly Starter,118,,
-158,7,RB,Roschon Johnson,CHI,Weekly Starter,117,,
-159,6.9,RB,Dylan Edwards,Colorado,Flex Filler,,,44
-160,6.9,WR,J. Michael Sturdivant,UCLA,Flex Filler,,23,41
-161,6.9,RB,Blake Corum,Michigan,Flex Filler,,24,42
-162,6.9,WR,Brandon Innis,Ohio State,Flex Filler,,,43
-163,6.9,TE,Tyler Higbee,LAR,Flex Filler,130,,
-164,6.9,WR,Courtland Sutton,DEN,Flex Filler,129,,
-165,6.9,WR,Quentin Johnston,LAC,Flex Filler,128,,
-166,6.9,RB,Dalvin Cook,NYJ,Flex Filler,127,,
-167,6.9,RB,James Conner,ARI,Flex Filler,126,,
-168,6.9,RB,Elijah Mitchell,SF,Flex Filler,125,,
-169,6.9,RB,David Montgomery,DET,Flex Filler,124,,
-170,6.9,QB,Jordan Love,GB,Flex Filler,123,,
-171,6.9,QB,Desmond Ridder,ATL,Flex Filler,122,,
-172,6.9,QB,Geno Smith,SEA,Flex Filler,121,,
-173,6.9,QB,Matthew Stafford,LAR,Flex Filler,120,,
-174,6.9,QB,Ryan Tannehill,TEN,Flex Filler,119,,
-175,6.8,QB,Jaden Rashada,Arizona State,Flex Filler,,,47
-176,6.8,WR,Johntay Cook II,Texas,Flex Filler,,,46
-177,6.8,QB,Carson Beck,Georgia,Flex Filler,,25,45
-178,6.8,TE,Dalton Schultz,HOU,Flex Filler,135,,
-179,6.8,WR,Rashod Bateman,BAL,Flex Filler,134,,
-180,6.8,WR,Kadarius Toney,KC,Flex Filler,133,,
-181,6.8,RB,Raheem Mostert,MIA,Flex Filler,132,,
-182,6.8,QB,Jimmy Garoppolo,LV,Flex Filler,131,,
-183,6.7,QB,Walker Howard,Mississippi,Flex Filler,,,53
-184,6.7,QB,Jayden Daniels,LSU,Flex Filler,,26,48
-185,6.7,TE,Ja'Tavion Sanders,Texas,Flex Filler,,27,49
-186,6.7,RB,Richard Young,Alabama,Flex Filler,,,54
-187,6.7,RB,Jase McClellan,Alabama,Flex Filler,,28,50
-188,6.7,WR,Jurrion Dickey,Oregon,Flex Filler,,,55
-189,6.7,QB,Avery Johnson,Kansas State,Flex Filler,,,57
-190,6.7,WR,Shelton Sampson Jr.,LSU,Flex Filler,,,56
-191,6.7,QB,Christopher Vizzina,Clemson,Flex Filler,,,58
-192,6.7,WR,Barion Brown,Kentucky,Flex Filler,,,51
-193,6.7,WR,Antonio Williams,Clemson,Flex Filler,,,52
-194,6.7,TE,Jake Ferguson,DAL,Flex Filler,148,,
-195,6.7,TE,Hunter Henry,NE,Flex Filler,147,,
-196,6.7,WR,Allen Lazard,NYJ,Flex Filler,146,,
-197,6.7,WR,Jayden Reed,GB,Flex Filler,145,,
-198,6.7,WR,Tank Dell,HOU,Flex Filler,144,,
-199,6.7,WR,Jakobi Meyers,LV,Flex Filler,143,,
-200,6.7,WR,Puka Nacua,LAR,Flex Filler,142,,
-201,6.7,WR,Jonathan Mingo,CAR,Flex Filler,141,,
-202,6.7,WR,Mecole Hardman,NYJ,Flex Filler,140,,
-203,6.7,RB,Antonio Gibson,WAS,Flex Filler,139,,
-204,6.7,RB,Brian Robinson Jr.,WAS,Flex Filler,138,,
-205,6.7,RB,Jamaal Williams,NO,Flex Filler,137,,
-206,6.7,RB,Tank Bigsby,JAC,Flex Filler,136,,
-207,6.6,WR,Adam Randall,Clemson,Flex Filler,,,61
-208,6.6,WR,Tetairoa McMillan,Arizona,Flex Filler,,,62
-209,6.6,TE,Oscar Delp,Georgia,Flex Filler,,,63
-210,6.6,RB,Damien Martinez,Oregon State,Flex Filler,,,64
-211,6.6,QB,Michael Penix Jr.,Washington,Flex Filler,,29,59
-212,6.6,QB,Jalen Milroe,Alabama,Flex Filler,,30,60
-213,6.6,WR,Hykeem Williams,Florida State,Flex Filler,,,65
-214,6.6,TE,Cole Kmet,CHI,Flex Filler,157,,
-215,6.6,TE,Jelani Woods,IND,Flex Filler,156,,
-216,6.6,WR,DeAndre Hopkins,TEN,Flex Filler,155,,
-217,6.6,WR,Wan'Dale Robinson,NYG,Flex Filler,154,,
-218,6.6,WR,Brandin Cooks,DAL,Flex Filler,153,,
-219,6.6,WR,Cedric Tillman,CLE,Flex Filler,152,,
-220,6.6,RB,Zack Moss,IND,Flex Filler,151,,
-221,6.6,RB,Ezekiel Elliott,NE,Flex Filler,150,,
-222,6.6,RB,Ty Chandler,MIN,Flex Filler,149,,
-223,6.5,QB,Sam Hartman,Notre Dame,Flex Filler,,31,66
-224,6.5,WR,Travis Hunter,Colorado,Flex Filler,,,69
-225,6.5,RB,Kaytron Allen,Penn State,Flex Filler,,,72
-226,6.5,RB,Raleek Brown,USC,Flex Filler,,,71
-227,6.5,RB,Branson Robinson,Georgia,Flex Filler,,,70
-228,6.5,WR,Rome Odunze,Washington,Flex Filler,,32,67
-229,6.5,RB,Emmanuel Henderson,Alabama,Flex Filler,,,73
-230,6.5,TE,Jaheim Bell,Florida State,Flex Filler,,33,68
-231,6.5,QB,Austin Novosad,Oregon,Flex Filler,,,74
-232,6.5,TE,Noah Fant,SEA,Flex Filler,170,,
-233,6.5,TE,Gerald Everett,LAC,Flex Filler,169,,
-234,6.5,WR,Marquez-Valdes Scantling,KC,Flex Filler,168,,
-235,6.5,WR,Hollywood Brown,ARI,Flex Filler,167,,
-235,6.5,WR,Marquise Brown,ARI,Flex Filler,167,,
-236,6.5,WR,Odell Beckham Jr.,BAL,Flex Filler,166,,
-237,6.5,WR,Robert Woods,HOU,Flex Filler,165,,
-238,6.5,WR,Rashee Rice,KC,Flex Filler,164,,
-239,6.5,WR,Demario Douglas,NE,Flex Filler,163,,
-240,6.5,RB,Kyren Williams,LAR,Flex Filler,162,,
-241,6.5,RB,Chuba Hubbard,CAR,Flex Filler,161,,
-242,6.5,RB,Khalil Herbert,CHI,Flex Filler,160,,
-243,6.5,RB,Damien Harris,BUF,Flex Filler,159,,
-244,6.5,QB,Baker Mayfield,TB,Bench Depth,158,,
-245,6.4,QB,KJ Jefferson,Arkansas,Flex Filler,,34,75
-246,6.4,QB,Jordan Travis,Florida State,Bench Depth,,35,76
-247,6.4,QB,Tyler Van Dyke,Miami,Bench Depth,,36,77
-248,6.4,QB,Spencer Rattler,South Carolina,Bench Depth,,37,78
-249,6.4,WR,Aaron Anderson,LSU,Bench Depth,,,88
-250,6.4,TE,Erick All,Iowa,Bench Depth,,42,83
-251,6.4,TE,Jake Briningstool,Clemson,Bench Depth,,39,80
-252,6.4,TE,Theo Johnson,Penn State,Bench Depth,,41,82
-253,6.4,TE,Brevyn Spann-Ford,Minnesota,Bench Depth,,40,81
-254,6.4,QB,Cam Ward,Washington State,Bench Depth,,38,79
-255,6.4,QB,Devin Brown,Ohio State,Bench Depth,,,92
-256,6.4,RB,Le'Veon Moss,Texas A&M,Bench Depth,,,91
-257,6.4,RB,Jayden Ott,California,Bench Depth,,,90
-258,6.4,WR,Chris Marshall,Mississippi,Bench Depth,,,89
-259,6.4,QB,Jaxson Dart,Mississippi,Bench Depth,,46,84
-260,6.4,TE,Duce Robinson,USC,Bench Depth,,,96
-261,6.4,WR,Adonai Mitchell,Texas,Bench Depth,,44,86
-262,6.4,WR,Jimmy Horn Jr.,Colorado,Bench Depth,,43,85
-263,6.4,WR,Noah Rogers,Ohio State,Bench Depth,,,95
-264,6.4,RB,Gavin Sawchuk,Oklahoma,Bench Depth,,,93
-265,6.4,RB,Andrew Paul,Georgia,Bench Depth,,,94
-266,6.4,WR,Roman Wilson,Michigan,Bench Depth,,45,87
-267,6.4,TE,Luke Musgrave,GB,Bench Depth,190,,
-268,6.4,TE,Juwan Johnson,NO,Bench Depth,189,,
-269,6.4,TE,David Njoku,CLE,Bench Depth,188,,
-270,6.4,WR,Charlie Jones,CIN,Bench Depth,187,,
-271,6.4,WR,Michael Wilson,ARI,Bench Depth,186,,
-272,6.4,WR,K.J. Osborn,MIN,Bench Depth,185,,
-273,6.4,WR,Terrace Marshall,CAR,Bench Depth,184,,
-274,6.4,WR,Parker Washington,JAC,Bench Depth,183,,
-275,6.4,WR,Adam Thielen,CAR,Bench Depth,182,,
-276,6.4,WR,Tyler Boyd,CIN,Bench Depth,181,,
-277,6.4,RB,Zamir White,LV,Bench Depth,180,,
-278,6.4,RB,Samaje Perine,DEN,Bench Depth,179,,
-279,6.4,RB,Clyde Edwards-Helaire,KC,Bench Depth,178,,
-280,6.4,RB,Jaylen Warren,PIT,Bench Depth,177,,
-281,6.4,RB,Deuce Vaughn,DAL,Bench Depth,176,,
-282,6.4,RB,Jerome Ford,CLE,Bench Depth,175,,
-283,6.4,RB,Kendre Miller,NO,Bench Depth,174,,
-284,6.4,RB,Tyler Allgeier,ATL,Bench Depth,173,,
-285,6.4,QB,Josh Dobbs,ARI,Bench Depth,172,,
-285,6.4,QB,Joshua Dobbs,ARI,Bench Depth,172,,
-286,6.4,QB,Trey Lance,DAL,Bench Depth,171,,
-287,6.3,WR,Jermaine Burton,Alabama,Bench Depth,,47,97
-288,6.3,QB,Kyle McCord,Ohio State,Bench Depth,,48,98
-289,6.3,QB,Devin Leary,Kentucky,Bench Depth,,49,99
-290,6.3,RB,Trey Benson,Florida State,Bench Depth,,50,105
-291,6.3,WR,Mario Williams,USC,Bench Depth,,51,100
-292,6.3,QB,Dillion Gabriel,Oklahoma,Bench Depth,,58,103
-293,6.3,QB,Hudson Card,Purdue,Bench Depth,,57,102
-294,6.3,QB,Phil Jurkovec,Pittsburgh,Bench Depth,,59,104
-295,6.3,QB,DJ Uiagalelei,Oregon State,Bench Depth,,56,101
-296,6.3,QB,Grayson McCall,Coastal Carolina,Bench Depth,,60,106
-297,6.3,QB,Jalon Daniels,Kansas,Bench Depth,,55,107
-298,6.3,RB,Kaleb Jackson,LSU,Bench Depth,,,117
-299,6.3,RB,Cole Cabana,Michigan,Bench Depth,,,116
-300,6.3,WR,Jalen Brown,LSU,Bench Depth,,,115
-301,6.3,QB,Cade McNamara,Iowa,Bench Depth,,53,108
-302,6.3,QB,Eli Holstein,Alabama,Bench Depth,,,119
-303,6.3,WR,Kevin Concepcion,NC State,Bench Depth,,,118
-304,6.3,RB,CJ Donaldson,West Virginia,Bench Depth,,,112
-305,6.3,RB,Jamarion Miller,Alabama,Bench Depth,,,111
-306,6.3,WR,Jamari Thrash,Louisville,Bench Depth,,52,109
-307,6.3,QB,Tanner Mordecai,Wisconsin,Bench Depth,,54,110
-308,6.3,QB,Maalik Murphey,Texas,Bench Depth,,,114
-309,6.3,WR,Matthew Golden,Houston,Bench Depth,,,113
-310,6.3,RB,Leonard Fournette,TB,Bench Depth,191,,
-311,6.3,TE,Hayden Hurst,CAR,Bench Depth,210,,
-312,6.3,TE,Isaiah Likely,BAL,Bench Depth,209,,
-313,6.3,TE,Tucker Kraft,GB,Bench Depth,208,,
-314,6.3,TE,Logan Thomas,WAS,Bench Depth,207,,
-315,6.3,TE,Irv Smith Jr.,CIN,Bench Depth,206,,
-316,6.3,WR,Allen Robinson,PIT,Bench Depth,205,,
-317,6.3,WR,Michael Gallup,DAL,Bench Depth,204,,
-318,6.3,WR,Romeo Doubs,GB,Bench Depth,203,,
-319,6.3,WR,Kyle Phillips,TEN,Bench Depth,202,,
-320,6.3,WR,Khalil Shakir,BUF,Bench Depth,201,,
-321,6.3,WR,Zay Jones,JAC,Bench Depth,200,,
-322,6.3,WR,Nico Collins,HOU,Bench Depth,199,,
-323,6.3,WR,Chase Claypool,CHI,Bench Depth,198,,
-324,6.3,WR,Dontayvion Wicks,GB,Bench Depth,197,,
-325,6.3,RB,Devin Singletary,HOU,Bench Depth,196,,
-326,6.3,RB,AJ Dillon,GB,Bench Depth,195,,
-327,6.3,RB,Zach Evans,LAR,Bench Depth,194,,
-328,6.3,RB,Tyjae Spears,TEN,Bench Depth,193,,
-329,6.3,RB,Rashaad Penny,PHI,Bench Depth,192,,
-330,6.2,TE,Walker Lyons,Stanford,Bench Depth,,,148
-331,6.2,WR,Kaden Saunders,Penn State,Bench Depth,,,145
-332,6.2,TE,Pearce Spurlin,Georgia,Bench Depth,,,149
-333,6.2,RB,Dallan Hayden,Ohio State,Bench Depth,,,146
-334,6.2,RB,Jaydon Blue,Texas,Bench Depth,,,140
-335,6.2,WR,Bru McCoy,Tennessee,Bench Depth,,66,120
-336,6.2,RB,Marshawn Lloyd,USC,Bench Depth,,61,121
-337,6.2,RB,Jo'Quavious Marks,Mississippi State,Bench Depth,,62,123
-338,6.2,RB,Trey Sanders,TCU,Bench Depth,,65,130
-339,6.2,WR,Dominic Lovett,Georgia,Bench Depth,,73,125
-340,6.2,WR,Ja’Corey Brooks,Alabama,Bench Depth,,75,131
-341,6.2,WR,Jacob Cowing,Arizona,Bench Depth,,72,122
-342,6.2,RB,Kendall Milton,Georgia,Bench Depth,,64,129
-343,6.2,WR,Dorian Singer,USC,Bench Depth,,74,128
-344,6.2,QB,Brennan Armstrong,NC State,Bench Depth,,78,126
-345,6.2,QB,Will Rogers,Mississippi State,Bench Depth,,79,127
-346,6.2,QB,Preston Stone,SMU,Bench Depth,,77,124
-347,6.2,RB,Montrell Johnson,Florida,Bench Depth,,67,132
-348,6.2,WR,Kobe Prentice,Alabama,Bench Depth,,,142
-349,6.2,WR,Kaleb Brown,Iowa,Bench Depth,,,141
-350,6.2,TE,Ethan Davis,Tennessee,Bench Depth,,,147
-351,6.2,RB,Ray Davis,Kentucky,Bench Depth,,68,133
-352,6.2,RB,Miyan Williams,Ohio State,Bench Depth,,63,135
-353,6.2,WR,Johnny Wilson,Florida State,Bench Depth,,76,136
-354,6.2,RB,Harry Parrish,Miami,Bench Depth,,69,134
-355,6.2,RB,Jaylan Knighton,SMU,Bench Depth,,70,137
-356,6.2,WR,CJ Williams,USC,Bench Depth,,,144
-357,6.2,WR,Shazz Preston,Alabama,Bench Depth,,,143
-358,6.2,RB,Ja'Quinden Jackson,Utah,Bench Depth,,,139
-359,6.2,RB,Audric Estime,Notre Dame,Bench Depth,,71,138
-360,6.2,TE,Mike Gesicki,NE,Bench Depth,223,,
-361,6.2,TE,Cameron Latu,SF,Bench Depth,222,,
-362,6.2,WR,Rondale Moore,ARI,Bench Depth,221,,
-363,6.2,WR,A.T. Perry,NO,Bench Depth,220,,
-364,6.2,WR,Derius Davis,LAC,Bench Depth,219,,
-365,6.2,WR,Tre Tucker,LV,Bench Depth,218,,
-366,6.2,WR,Tyler Scott,CHI,Bench Depth,217,,
-367,6.2,WR,Curtis Samuel,WAS,Bench Depth,216,,
-368,6.2,RB,Christopher Rodriguez,WAS,Bench Depth,215,,
-368,6.2,RB,Chris Rodriguez,WAS,Bench Depth,215,,
-369,6.2,RB,Latavius Murray,BUF,Bench Depth,214,,
-370,6.2,RB,Chase Brown,CIN,Bench Depth,213,,
-371,6.2,RB,Jerick McKinnon,KC,Bench Depth,212,,
-372,6.2,RB,Evan Hull,IND,Bench Depth,211,,
-373,6.1,WR,Jaquaize Pettaway,Oklahoma,Bench Depth,,,164
-374,6.1,WR,Jalen Hale,Alabama,Bench Depth,,,163
-375,6.1,WR,Nyckoles Harbor,South Carolina,Bench Depth,,,165
-376,6.1,RB,Jeremiah Cobb,Auburn,Bench Depth,,,166
-377,6.1,TE,Jake Johnson,Texas A&M,Bench Depth,,,160
-378,6.1,QB,Nick Evers,Wisconsin,Bench Depth,,,162
-379,6.1,TE,Jaleel Skinner,Miami,Bench Depth,,,161
-380,6.1,WR,Traeshon Holden,Oregon,Bench Depth,,80,150
-381,6.1,RB,LJ Johnson,SMU,Bench Depth,,81,151
-382,6.1,TE,Michael Trigg,Mississippi,Bench Depth,,82,152
-383,6.1,RB,Treyaun Webb,Florida,Bench Depth,,,168
-384,6.1,RB,Dante Dowdell,Oregon,Bench Depth,,,167
-385,6.1,RB,Kedrick Resscano,Michigan State,Bench Depth,,,169
-386,6.1,RB,Kavosiey Smoke,Colorado,Bench Depth,,84,159
-387,6.1,RB,Alton McCaskill,Colorado,Bench Depth,,83,158
-388,6.1,TE,Austin Stogner,Oklahoma,Bench Depth,,89,157
-389,6.1,TE,Terrance Ferguson,Oregon,Bench Depth,,88,155
-390,6.1,TE,Elijah Arroyo,Miami,Bench Depth,,86,153
-391,6.1,TE,Cade Stover,Ohio State,Bench Depth,,87,154
-392,6.1,WR,Jalil Farooq,Oklahoma,Bench Depth,,85,156
-393,6.1,TE,Payne Durham,TB,Bench Depth,230,,
-394,6.1,TE,Jeremy Ruckert,NYJ,Bench Depth,229,,
-395,6.1,WR,Noah Brown,HOU,Bench Depth,228,,
-396,6.1,WR,Trey Palmer,TB,Bench Depth,227,,
-397,6.1,RB,D'Onta Foreman,CHI,Bench Depth,226,,
-398,6.1,RB,Rico Dowdle,DAL,Bench Depth,225,,
-399,6.1,RB,Eric Gray,NYG,Bench Depth,224,,
-400,6,WR,Kevin Coleman,Louisville,Bench Depth,,,172
-401,6,QB,Sam Horn,Missouri,Bench Depth,,,176
-402,6,RB,George Pettaway,North Carolina,Bench Depth,,,175
-403,6,RB,Damari Alston,Auburn,Bench Depth,,,174
-404,6,RB,Omarian Hampton,North Carolina,Bench Depth,,,173
-405,6,WR,RaRa Thomas,Georgia,Bench Depth,,90,170
-406,6,TE,Riley Williams,Miami,Bench Depth,,,178
-407,6,QB,Dylan Lonergan,Alabama,Bench Depth,,,177
-408,6,WR,Xavier Weaver,Colorado,Bench Depth,,91,171
-409,6,WR,Jauan Jennings,SF,Bench Depth,241,,
-410,6,WR,Jason Brownlee,NYJ,Bench Depth,240,,
-411,6,WR,DJ Chark,CAR,Bench Depth,239,,
-412,6,WR,Mack Hollins,ATL,Bench Depth,238,,
-413,6,WR,Hunter Renfrow,LV,Bench Depth,237,,
-414,6,WR,Calvin Austin III,PIT,Bench Depth,236,,
-415,6,WR,Isaiah Hodgins,NYG,Bench Depth,235,,
-416,6,WR,Josh Palmer,LAC,Bench Depth,234,,
-416,6,WR,Joshua Palmer,LAC,Bench Depth,234,,
-417,6,RB,Gus Edwards,BAL,Taxi Squad Stash,233,,
-418,6,RB,Trayveon Williams,CIN,Taxi Squad Stash,232,,
-419,6,RB,Keaton Mitchell,BAL,Bench Depth,231,,
-420,5.9,RB,George Holani,Boise State,Bench Depth,,92,179
-421,5.9,WR,Malik Benson,Alabama,Taxi Squad Stash,,94,180
-422,5.9,QB,Gunner Stockton,Georgia,Taxi Squad Stash,,,187
-423,5.9,WR,Tyler Harrell,Miami,Taxi Squad Stash,,97,183
-424,5.9,WR,JoJo Earle,TCU,Taxi Squad Stash,,95,181
-425,5.9,WR,Theo Wease,Missouri,Taxi Squad Stash,,99,185
-426,5.9,WR,Isaiah Neyor,Texas,Taxi Squad Stash,,96,182
-427,5.9,WR,Jalen McMillan,Washington,Taxi Squad Stash,,98,184
-428,5.9,RB,Jarquez Hunter,Auburn,Taxi Squad Stash,,93,186
-429,5.9,WR,Xavier Gipson,NYJ,Taxi Squad Stash,251,,
-430,5.9,WR,Ronnie Bell,SF,Taxi Squad Stash,250,,
-431,5.9,WR,Kayshon Boutte,NE,Taxi Squad Stash,249,,
-432,5.9,RB,Keaontay Ingram,ARI,Taxi Squad Stash,248,,
-433,5.9,RB,Sean Tucker,TB,Taxi Squad Stash,247,,
-434,5.9,RB,Myles Gaskin,MIN,Taxi Squad Stash,246,,
-435,5.9,RB,Kareem Hunt,CLE,Taxi Squad Stash,245,,
-436,5.9,QB,Taylor Heinicke,ATL,Taxi Squad Stash,244,,
-437,5.9,QB,Gardner Minshew,IND,Taxi Squad Stash,243,,
-438,5.9,QB,Bailey Zappe,NE,Taxi Squad Stash,242,,
-439,5.8,QB,Brock Vandagriff,Georgia,Taxi Squad Stash,,100,188
-440,5.8,RB,Evan Pryor,Ohio State,Taxi Squad Stash,,108,190
-441,5.8,RB,Camar Wheaton,SMU,Taxi Squad Stash,,101,189
-442,5.8,RB,Thaddius Franklin,Miami,Taxi Squad Stash,,107,191
-443,5.8,RB,Trevonte Citizen,Miami,Taxi Squad Stash,,,224
-444,5.8,RB,Jabari Small,Tennessee,Taxi Squad Stash,,110,203
-445,5.8,RB,Treshaun Ward,Kansas State,Taxi Squad Stash,,109,200
-446,5.8,WR,Konata Mumpfield,Pittsburgh,Taxi Squad Stash,,115,199
-447,5.8,WR,Dante Cephas,Penn State,Taxi Squad Stash,,114,195
-448,5.8,WR,Deion Smith,LSU,Taxi Squad Stash,,116,201
-449,5.8,RB,Byron Cardwell,California,Taxi Squad Stash,,103,193
-450,5.8,WR,Christian Leary,Alabama,Taxi Squad Stash,,117,202
-451,5.8,RB,Dillon Johnson,Washington,Taxi Squad Stash,,105,196
-452,5.8,RB,Phil Mafah,Clemson,Taxi Squad Stash,,102,192
-453,5.8,RB,Rasheen Ali,Marshall,Taxi Squad Stash,,106,197
-454,5.8,RB,Bucky Irving,Oregon,Taxi Squad Stash,,104,194
-455,5.8,QB,Jeff Sims,Nebraska,Bench Depth,,127,198
-456,5.8,WR,Ramel Keyton,Tennessee,Taxi Squad Stash,,118,204
-457,5.8,WR,Ladd McConkey,Georgia,Taxi Squad Stash,,121,208
-458,5.8,WR,Cornelius Johnson,Michigan,Taxi Squad Stash,,120,207
-459,5.8,RB,Jonathan Brooks,Texas,Taxi Squad Stash,,112,222
-460,5.8,TE,Brant Kuithe,Utah,Taxi Squad Stash,,132,216
-461,5.8,WR,Isaiah Williams,Illinois,Taxi Squad Stash,,124,218
-462,5.8,WR,Xavier Restrepo,Miami,Taxi Squad Stash,,123,215
-463,5.8,RB,Gabe Ervin Jr.,Nebraska,Taxi Squad Stash,,111,214
-464,5.8,TE,Isaac Rex,BYU,Taxi Squad Stash,,135,221
-465,5.8,RB,Corey Kiner,Cincinnati,Taxi Squad Stash,,113,223
-466,5.8,WR,Kyle Ford,UCLA,Taxi Squad Stash,,125,220
-467,5.8,WR,Gary Bryant Jr,Oregon,Taxi Squad Stash,,122,212
-468,5.8,WR,Andrel Anthony,Oklahoma,Taxi Squad Stash,,119,205
-469,5.8,QB,Sam Huard,Cal Poly,Taxi Squad Stash,,128,209
-470,5.8,QB,Jayden de Laura,Arizona,Taxi Squad Stash,,130,211
-471,5.8,QB,Chandler Morris,TCU,Taxi Squad Stash,,131,213
-472,5.8,QB,Blake Shapen,Baylor,Taxi Squad Stash,,126,206
-473,5.8,QB,Noah Kim,Michigan State,Taxi Squad Stash,,133,217
-474,5.8,QB,Luke Altmyer,Illinois,Taxi Squad Stash,,134,219
-475,5.8,QB,Spencer Sanders,Mississippi,Taxi Squad Stash,,129,210
-476,5.8,TE,Dawson Knox,BUF,Taxi Squad Stash,272,,
-477,5.8,TE,Daniel Bellinger,NYG,Taxi Squad Stash,271,,
-478,5.8,TE,Cole Turner,WAS,Taxi Squad Stash,270,,
-479,5.8,TE,Peyton Hendershot,DAL,Taxi Squad Stash,269,,
-480,5.8,TE,Albert Okwiegbunam,DEN,Taxi Squad Stash,268,,
-481,5.8,TE,Harrison Bryant,CLE,Taxi Squad Stash,267,,
-482,5.8,WR,Parris Campbell,NYG,Taxi Squad Stash,266,,
-483,5.8,WR,Michael Thomas,NO,Taxi Squad Stash,265,,
-484,5.8,WR,Isaiah Mckenzie,IND,Taxi Squad Stash,264,,
-485,5.8,WR,Zach Pascal,ARI,Taxi Squad Stash,263,,
-486,5.8,WR,Dyami Brown,WAS,Taxi Squad Stash,262,,
-487,5.8,WR,Jake Bobo,SEA,Taxi Squad Stash,261,,
-488,5.8,WR,Quez Watkins,PHI,Taxi Squad Stash,260,,
-489,5.8,WR,Kendrick Bourne,NE,Taxi Squad Stash,259,,
-490,5.8,WR,Jalen Tolbert,DAL,Taxi Squad Stash,258,,
-491,5.8,WR,Rakim Jarrett,TB,Taxi Squad Stash,257,,
-492,5.8,WR,Tutu Atwell,LAR,Taxi Squad Stash,256,,
-493,5.8,WR,Rashid Shaheed,NO,Taxi Squad Stash,255,,
-494,5.8,WR,John Metchie,HOU,Taxi Squad Stash,254,,
-495,5.8,QB,Davis Mills,HOU,Taxi Squad Stash,253,,
-496,5.8,QB,Matt Corral,NE,Taxi Squad Stash,252,,
-497,5.7,TE,Donovan Green,Texas A&M,Taxi Squad Stash,,,232
-498,5.7,WR,Squirrel White,Tennessee,Taxi Squad Stash,,,231
-499,5.7,QB,Ty Simpson,Alabama,Taxi Squad Stash,,,230
-500,5.7,WR,Ricky Pearsall,Florida,Taxi Squad Stash,,139,226
-501,5.7,RB,Brandon Thomas,Memphis,Taxi Squad Stash,,136,228
-502,5.7,WR,Tyrese Chambers,Maryland,Taxi Squad Stash,,138,225
-503,5.7,WR,De'Zhaun Stribling,Oklahoma State,Taxi Squad Stash,,140,227
-504,5.7,TE,Eli Raridon,Notre Dame,Taxi Squad Stash,,,233
-505,5.7,RB,Cody Schrader,Missouri,Taxi Squad Stash,,137,229
-506,5.7,TE,Noah Grey,KC,Taxi Squad Stash,277,,
-507,5.7,TE,Will Mallory,IND,Taxi Squad Stash,276,,
-508,5.7,TE,Cade Otton,TB,Taxi Squad Stash,275,,
-509,5.7,TE,Luke Schoonmaker,DAL,Taxi Squad Stash,274,,
-510,5.7,RB,Kylin Hill,GB,Taxi Squad Stash,273,,
-511,5.6,QB,Tyler Buchner,Alabama,Taxi Squad Stash,,141,234
-512,5.6,QB,Graham Mertz,Florida,Taxi Squad Stash,,143,235
-513,5.6,TE,Trey Knox,South Carolina,Taxi Squad Stash,,142,236
-514,5.6,WR,Keith Kirkwood,NO,Taxi Squad Stash,310,,
-515,5.6,WR,Chris Moore,TEN,Taxi Squad Stash,309,,
-516,5.6,WR,Shi Smith,CAR,Taxi Squad Stash,308,,
-517,5.6,WR,Jarvis Landry,NO,Taxi Squad Stash,307,,
-518,5.6,WR,AJ Green,ARI,Taxi Squad Stash,306,,
-519,5.6,WR,David Bell,CLE,Taxi Squad Stash,305,,
-520,5.6,WR,Devin Duvernay,BAL,Taxi Squad Stash,304,,
-521,5.6,RB,Kenneth Gainwell,PHI,Taxi Squad Stash,303,,
-522,5.6,RB,Ronnie Rivers,LAR,Taxi Squad Stash,302,,
-523,5.6,RB,Ahmeer Abdullah,LV,Taxi Squad Stash,301,,
-524,5.6,RB,Dare Ogunbowale,HOU,Taxi Squad Stash,300,,
-525,5.6,RB,Pierre Strong,CLE,Taxi Squad Stash,299,,
-526,5.6,RB,Gary Brightwell,NYG,Taxi Squad Stash,298,,
-527,5.6,RB,Emanuel Wilson,GB,Taxi Squad Stash,297,,
-528,5.6,RB,Raheem Blackshear,CAR,Taxi Squad Stash,296,,
-529,5.6,RB,Emari Demercado,ARI,Taxi Squad Stash,295,,
-530,5.6,RB,Craig Reynold,DET,Taxi Squad Stash,294,,
-531,5.6,RB,Chase Edmonds,TB,Taxi Squad Stash,293,,
-532,5.6,RB,Matt Breida,NYG,Taxi Squad Stash,292,,
-533,5.6,RB,D'Ernest Johnson,JAC,Taxi Squad Stash,291,,
-534,5.6,RB,Mike Boone,HOU,Taxi Squad Stash,290,,
-535,5.6,RB,Travis Homer,CHI,Taxi Squad Stash,289,,
-536,5.6,RB,Justice Hill,BAL,Taxi Squad Stash,288,,
-537,5.6,RB,Justin Jackson,DET,Taxi Squad Stash,287,,
-538,5.6,RB,Jaret Patterson,WAS,Taxi Squad Stash,286,,
-539,5.6,RB,Jordan Mason,SF,Taxi Squad Stash,285,,
-540,5.6,RB,Deon Jackson,IND,Taxi Squad Stash,284,,
-541,5.6,RB,Boston Scott,PHI,Taxi Squad Stash,283,,
-542,5.6,RB,Kenyan Drake,BAL,Taxi Squad Stash,282,,
-543,5.6,RB,Cordarrelle Patterson,ATL,Taxi Squad Stash,281,,
-544,5.6,QB,Malik Willis,TEN,Taxi Squad Stash,280,,
-545,5.6,QB,Mason Rudolph,PIT,Taxi Squad Stash,279,,
-546,5.6,QB,Jameis Winston,NO,Taxi Squad Stash,278,,
-547,5.5,QB,Ty Thompson,Oregon,Waiver Wire Warrior,,147,237
-548,5.5,RB,Jirehl Brock,Iowa State,Waiver Wire Warrior,,144,238
-549,5.5,QB,Cameron Rising,Utah,Waiver Wire Warrior,,145,239
-550,5.5,QB,Collin Schlee,UCLA,Waiver Wire Warrior,,146,240
-551,5.5,WR,Elijah Cooks,JAC,Waiver Wire Warrior,336,,
-552,5.5,WR,KhaDarel Hodge,ATL,Waiver Wire Warrior,335,,
-553,5.5,WR,Cedrick Wilson,MIA,Waiver Wire Warrior,334,,
-554,5.5,WR,Brandon Powell,MIN,Waiver Wire Warrior,333,,
-555,5.5,WR,Jalen Nailor,MIN,Waiver Wire Warrior,332,,
-556,5.5,WR,Samori Toure,GB,Waiver Wire Warrior,331,,
-557,5.5,WR,Marvin Jones Jr.,DET,Waiver Wire Warrior,330,,
-558,5.5,WR,Trent Sherfield,BUF,Waiver Wire Warrior,329,,
-559,5.5,WR,Scott Miller,ATL,Waiver Wire Warrior,328,,
-560,5.5,WR,Olamide Zaccheaus,PHI,Waiver Wire Warrior,327,,
-561,5.5,WR,Erik Ezukanma,MIA,Waiver Wire Warrior,326,,
-562,5.5,WR,Andrei Iosivas,CIN,Waiver Wire Warrior,325,,
-563,5.5,WR,Braxton Berrios,MIA,Waiver Wire Warrior,324,,
-564,5.5,WR,DeAndre Carter,LV,Waiver Wire Warrior,323,,
-565,5.5,WR,TY Hilton,DAL,Waiver Wire Warrior,322,,
-566,5.5,WR,Deandre Carter,LAC,Waiver Wire Warrior,321,,
-567,5.5,WR,Marvin Jones,JAC,Waiver Wire Warrior,320,,
-568,5.5,WR,Breshard Perriman,TB,Waiver Wire Warrior,319,,
-569,5.5,WR,Josh Reynolds,DET,Waiver Wire Warrior,318,,
-570,5.5,WR,Ben Skowronek,LAR,Waiver Wire Warrior,317,,
-571,5.5,WR,Nick Westbrook-Ikhine,TEN,Waiver Wire Warrior,316,,
-572,5.5,WR,Nelson Agholor,BAL,Waiver Wire Warrior,315,,
-573,5.5,WR,KaVontae Turpin,DAL,Waiver Wire Warrior,314,,
-574,5.5,WR,Kalif Raymond,DET,Waiver Wire Warrior,313,,
-575,5.5,WR,Greg Dortch,ARI,Waiver Wire Warrior,312,,
-576,5.5,WR,Darnell Mooney,CHI,Waiver Wire Warrior,311,,
-577,5.4,QB,Jake Garcia,Missouri,Waiver Wire Warrior,,150,243
-578,5.4,QB,Will Howard,Kansas State,Waiver Wire Warrior,,148,241
-579,5.4,QB,Payton Thorne,Auburn,Waiver Wire Warrior,,149,242
-580,5.3,QB,Grant Wells,Virginia Tech,Waiver Wire Warrior,,151,244
-581,5.3,TE,Zach Ertz,ARI,Waiver Wire Warrior,351,,
-582,5.3,TE,Josh Whyle,TEN,Waiver Wire Warrior,350,,
-583,5.3,TE,Brenton Strange,JAC,Waiver Wire Warrior,349,,
-584,5.3,TE,Brevin Jordan,HOU,Waiver Wire Warrior,348,,
-585,5.3,TE,Josh Oliver,MIN,Waiver Wire Warrior,347,,
-586,5.3,TE,Hunter Long,LAR,Waiver Wire Warrior,346,,
-587,5.3,TE,Donald Parham Jr.,LAC,Waiver Wire Warrior,345,,
-588,5.3,TE,Robert Tonyan,CHI,Waiver Wire Warrior,344,,
-589,5.3,TE,John Bates,WAS,Waiver Wire Warrior,343,,
-590,5.3,TE,Jeremy Ruckert,NYJ,Waiver Wire Warrior,342,,
-591,5.3,TE,Durham Smythe,MIA,Waiver Wire Warrior,341,,
-592,5.3,TE,Ian Thomas,CAR,Waiver Wire Warrior,340,,
-593,5.3,TE,Brock Wright,DET,Waiver Wire Warrior,339,,
-594,5.3,TE,Grant Calcaterra,PHI,Waiver Wire Warrior,338,,
-595,5.3,RB,Joshua Kelley,LAC,Waiver Wire Warrior,337,,
-596,5.2,RB,Israel Abanikanda,NYJ,Waiver Wire Warrior,354,,
-597,5.2,RB,Ke'Shawn Vaughn,TB,Waiver Wire Warrior,353,,
-598,5.2,RB,DeeJay Dallas,SEA,Waiver Wire Warrior,352,,
-599,5.1,TE,Tyler Conklin,NYJ,Waiver Wire Warrior,356,,
-600,5.1,RB,Michael Carter,NYJ,Waiver Wire Warrior,355,,
-601,5,RB,Isaiah Spiller,LAC,Waiver Wire Warrior,361,,
-602,5,RB,Jeff Wilson,MIA,Waiver Wire Warrior,360,,
-603,5,RB,Salvon Ahmed,MIA,Waiver Wire Warrior,359,,
-604,5,RB,Jamycal Hasty,JAC,Waiver Wire Warrior,358,,
-605,5,RB,Julius Chesnut,TEN,Waiver Wire Warrior,357,,
-606,4.9,TE,Jonnu Smith,ATL,Waiver Wire Warrior,362,,
-607,4.8,TE,Austin Hooper,LV,Waiver Wire Warrior,365,,
-608,4.8,TE,Will Dissly,SEA,Waiver Wire Warrior,364,,
-609,4.8,TE,Darnell Washington,PIT,Waiver Wire Warrior,363,,
-610,4.7,TE,Foster Moreau,NO,Waiver Wire Warrior,366,,
-611,4.5,TE,Brevin Jordan,HOU,Waiver Wire Warrior,368,,
-612,4.5,TE,Mo Alie-Cox,IND,Waiver Wire Warrior,367,,
+RBBR,Position,Name,Team,,,,
+6.2,WR,A.T. Perry,NO,Bench Depth
+6.5,WR,Aaron Anderson,LSU,Bench Depth
+6.9,RB,Aaron Jones,GB,Flex Filler
+6.4,QB,Aaron Rodgers,NYJ,Bench Depth
+6.5,WR,Adam Randall,Clemson,Bench Depth
+6.2,WR,Adam Thielen,CAR,Bench Depth
+6.9,WR,Adonai Mitchell,Texas,Flex Filler
+5.6,RB,Ahmeer Abdullah,LV,Taxi Squad Stash
+6.6,WR,Ainias Smith,Texas A&M,Flex Filler
+6.6,QB,Air Noland,Ohio State,Flex Filler
+8.6,WR,AJ Brown,PHI,Franchise Cornerstone
+6.2,RB,AJ Dillon,GB,Bench Depth
+5.5,WR,AJ Green,ARI,Waiver Wire Warrior
+5.8,TE,Albert Okwiegbunam,DEN,Taxi Squad Stash
+6.7,WR,Alec Pierce,IND,Flex Filler
+6.4,RB,Alexander Mattison,MIN,Bench Depth
+6.3,WR,Allen Lazard,NYJ,Bench Depth
+6,WR,Allen Robinson,PIT,Bench Depth
+5.8,RB,Alton McCaskill,Colorado,Taxi Squad Stash
+5.5,RB,Alton McCaskill,Colorado,Waiver Wire Warrior
+7.7,RB,Alvin Kamara,NO,Weekly Starter
+7.6,WR,Amari Cooper,CLE,Weekly Starter
+8.6,WR,Amon-Ra St. Brown,DET,Franchise Cornerstone
+5.5,WR,Andrei Iosivas,CIN,Waiver Wire Warrior
+5.5,WR,Andrel Anthony,Oklahoma,Waiver Wire Warrior
+5.9,WR,Andrew Armstrong,Arkansas,Taxi Squad Stash
+6.3,RB,Andrew Paul,Georgia,Bench Depth
+5.4,WR,Anthony Gould,Oregon State,Waiver Wire Warrior
+8.2,QB,Anthony Richardson,IND,League Winner
+6.4,RB,Antonio Gibson,WAS,Bench Depth
+6.6,WR,Antonio Williams,Clemson,Flex Filler
+6.5,QB,Antwane Wells Jr.,Mississippi,Flex Filler
+6.1,WR,Antwane Wells Jr.,South Carolina,Bench Depth
+7.1,QB,Arch Manning,Texas,Weekly Starter
+6.7,RB,Ashton Jeanty,Boise State,Flex Filler
+6.5,RB,Audric Estime,Notre Dame,Flex Filler
+7.7,RB,Austin Ekeler,LAC,Weekly Starter
+6.3,QB,Austin Novosad,Oregon,Bench Depth
+5.7,QB,Austin Reed,Western Kentucky,Taxi Squad Stash
+5.4,TE,Austin Stogner,Oklahoma,Waiver Wire Warrior
+6.9,QB,Avery Johnson,Kansas State,Flex Filler
+5.9,QB,Bailey Zappe,NE,Taxi Squad Stash
+6.7,QB,Baker Mayfield,TB,Flex Filler
+6.6,WR,Barion Brown,Kentucky,Flex Filler
+6.5,WR,Beaux Collins,Notre Dame,Bench Depth
+6.2,WR,Beaux Collins,Clemson,Bench Depth
+6.4,TE,Ben Sinnot,Kansas State,Bench Depth
+5.5,WR,Ben Skowronek,LAR,Waiver Wire Warrior
+8.4,RB,Bijan Robinson,ATL,League Winner
+7,RB,Blake Corum,Michigan,Weekly Starter
+5.5,QB,Blake Shapen,Mississippi State,Waiver Wire Warrior
+5.5,QB,Blake Shapen,Baylor,Waiver Wire Warrior
+5.9,RB,Blake Watson,Memphis,Taxi Squad Stash
+6.7,QB,Bo Nix,Oregon,Flex Filler
+5.6,RB,Boston Scott,PHI,Taxi Squad Stash
+7.8,RB,Braelon Allen,Wisconsin,Weekly Starter
+6.5,WR,Brandin Cooks,DAL,Bench Depth
+7.7,WR,Brandon Aiyuk,SF,Weekly Starter
+6.6,WR,Brandon Innis,Ohio State,Flex Filler
+5.5,RB,Brandon Thomas,Memphis,Waiver Wire Warrior
+6.9,RB,Branson Robinson,Georgia,Flex Filler
+5.8,TE,Brant Kuithe,Utah,Taxi Squad Stash
+5.5,WR,Braxton Berrios,MIA,Waiver Wire Warrior
+8.4,RB,Breece Hall,NYJ,League Winner
+5.9,WR,Brenden Rice,USC,Taxi Squad Stash
+5.4,QB,Brennan Armstrong,NC State,Waiver Wire Warrior
+5.3,TE,Brenton Strange,JAC,Waiver Wire Warrior
+5.5,WR,Breshard Perriman,TB,Waiver Wire Warrior
+6.2,TE,Brevyn Spann-Ford,Minnesota,Bench Depth
+7.6,RB,Brian Robinson Jr.,WAS,Weekly Starter
+7.5,WR,Brian Thomas Jr.,LSU,Weekly Starter
+8.3,TE,Brock Bowers,Georgia,League Winner
+7.5,QB,Brock Purdy,SF,Weekly Starter
+6.1,QB,Brock Vandagriff,Kentucky,Bench Depth
+5.5,QB,Brock Vandagriff,Georgia,Waiver Wire Warrior
+5.3,TE,Brock Wright,DET,Waiver Wire Warrior
+5.8,WR,Bru McCoy,Tennessee,Taxi Squad Stash
+5.4,WR,Bru McCoy,Tennessee,Waiver Wire Warrior
+7,WR,Bryant Wesco,Clemson,Weekly Starter
+7.7,QB,Bryce Young,CAR,Weekly Starter
+6.1,TE,Bryson Nesbit,North Carolina,Bench Depth
+5.7,WR,Bub Means,Pittsburgh,Taxi Squad Stash
+5.4,WR,Bub Means,Pittsburgh,Waiver Wire Warrior
+6.7,RB,Bucky Irving,Oregon,Flex Filler
+5.8,RB,Byron Cardwell,California,Taxi Squad Stash
+5.5,RB,Byron Cardwell,California,Waiver Wire Warrior
+7,QB,Cade Klubnik,Clemson,Weekly Starter
+5.8,QB,Cade McNamara,Iowa,Taxi Squad Stash
+6.7,TE,Cade Otton,TB,Flex Filler
+6.9,TE,Cade Stover,Ohio State,Flex Filler
+6.3,TE,Caleb Odom,Alabama,Bench Depth
+8.6,QB,Caleb Williams,USC,Franchise Cornerstone
+6.3,WR,Calvin Austin III,PIT,Bench Depth
+7.4,WR,Calvin Ridley,JAC,Weekly Starter
+5.9,RB,Cam Akers,MIN,Taxi Squad Stash
+7.3,WR,Cam Coleman,Auburn,Weekly Starter
+6.3,QB,Cam Ward,Washington State,Bench Depth
+5.8,RB,Camar Wheaton,SMU,Taxi Squad Stash
+5.5,RB,Camar Wheaton,SMU,Waiver Wire Warrior
+6.1,TE,Cameron Latu,SF,Bench Depth
+5.6,QB,Cameron Rising,Utah,Taxi Squad Stash
+7.3,WR,Carnell Tate,Ohio State,Weekly Starter
+7.4,QB,Carson Beck,Georgia,Weekly Starter
+6.8,QB,Carson Beck,Georgia,Flex Filler
+5.6,RB,Carson Steele,UCLA,Taxi Squad Stash
+6.4,TE,Carter Nelson,Nebraska,Bench Depth
+7.2,RB,Cedric Baxter Jr.,Texas,Weekly Starter
+6.6,WR,Cedric Tillman,CLE,Flex Filler
+9,WR,CeeDee Lamb,DAL,Generational
+5.5,QB,Chandler Morris,North Texas,Waiver Wire Warrior
+5.5,QB,Chandler Morris,TCU,Waiver Wire Warrior
+6.1,WR,Charlie Jones,CIN,Bench Depth
+6.2,RB,Chase Brown,CIN,Bench Depth
+5.5,WR,Chase Claypool,CHI,Waiver Wire Warrior
+5.6,RB,Chase Edmonds,TB,Taxi Squad Stash
+6.4,TE,Chigoziem Okonkwo,TEN,Bench Depth
+6.5,WR,Chris Godwin,TB,Flex Filler
+6.2,WR,Chris Marshall,Mississippi,Bench Depth
+5.6,WR,Chris Moore,TEN,Taxi Squad Stash
+8.3,WR,Chris Olave,NO,League Winner
+7.2,WR,Christian Kirk,JAC,Weekly Starter
+5.7,WR,Christian Leary,Georgia Tech,Taxi Squad Stash
+5.2,WR,Christian Leary,Alabama,Waiver Wire Warrior
+8.6,RB,Christian McCaffrey,SF,Franchise Cornerstone
+7.4,WR,Christian Watson,GB,Weekly Starter
+6.3,RB,Christopher Rodriguez,WAS,Bench Depth
+6.3,RB,Chris Rodriguez,WAS,Bench Depth
+6.6,QB,Christopher Vizzina,Clemson,Flex Filler
+6.7,RB,Chuba Hubbard,CAR,Flex Filler
+6.9,QB,CJ Carr,Notre Dame,Flex Filler
+6.3,RB,CJ Donaldson,West Virginia,Bench Depth
+8.6,QB,CJ Stroud,HOU,Franchise Cornerstone
+6.1,WR,CJ Williams,USC,Bench Depth
+6.1,RB,Clyde Edwards-Helaire,KC,Bench Depth
+6.9,RB,Cody Schrader,Missouri,Flex Filler
+6.1,RB,Cole Cabana,Michigan,Bench Depth
+7,TE,Cole Kmet,CHI,Weekly Starter
+5.8,TE,Cole Turner,WAS,Taxi Squad Stash
+5.4,QB,Collin Schlee,UCLA,Waiver Wire Warrior
+7.2,QB,Conner Weigman,Texas A&M,Weekly Starter
+7.9,WR,Cooper Kupp,LAR,Weekly Starter
+5.6,RB,Cordarrelle Patterson,ATL,Taxi Squad Stash
+5.8,RB,Corey Kiner,Cincinnati,Taxi Squad Stash
+5.7,RB,Corey Kiner,Cincinnati,Taxi Squad Stash
+5.8,WR,Cornelius Johnson,Michigan,Taxi Squad Stash
+5.7,WR,Cornelius Johnson,Michigan,Taxi Squad Stash
+6.7,WR,Courtland Sutton,DEN,Flex Filler
+5.6,RB,Craig Reynold,DET,Taxi Squad Stash
+6.5,WR,Curtis Samuel,WAS,Flex Filler
+7.9,RB,D'Andre Swift,PHI,Weekly Starter
+5.7,RB,D'Ernest Johnson,JAC,Taxi Squad Stash
+5.7,RB,D'Onta Foreman,CHI,Taxi Squad Stash
+8.1,QB,Dak Prescott,DAL,League Winner
+6.4,RB,Dallan Hayden,Ohio State,Bench Depth
+6.8,TE,Dallas Goedert,PHI,Flex Filler
+5.8,TE,Dallin Holker,Colorado State,Taxi Squad Stash
+7.4,TE,Dalton Kincaid,BUF,Weekly Starter
+7.2,TE,Dalton Schultz,HOU,Weekly Starter
+6.1,RB,Dalvin Cook,NYJ,Bench Depth
+6.1,RB,Damari Alston,Auburn,Bench Depth
+6.4,RB,Dameon Pierce,HOU,Bench Depth
+6.4,RB,Damien Harris,BUF,Bench Depth
+6.8,RB,Damien Martinez,Oregon State,Flex Filler
+6.7,WR,Dane Key,Kentucky,Flex Filler
+5.8,TE,Daniel Bellinger,NYG,Taxi Squad Stash
+6.5,RB,Daniel Hill,Alabama,Flex Filler
+6.7,QB,Daniel Jones,NYG,Flex Filler
+6,WR,Dante Cephas,Transfer Portal,Taxi Squad Stash
+5.2,WR,Dante Cephas,Penn State,Waiver Wire Warrior
+6,RB,Dante Dowdell,Oregon,Taxi Squad Stash
+7.1,QB,Dante Moore,Oregon,Weekly Starter
+5.6,RB,Dare Ogunbowale,HOU,Taxi Squad Stash
+6.3,WR,Darnell Mooney,CHI,Bench Depth
+5.6,TE,Darnell Washington,PIT,Taxi Squad Stash
+6.9,TE,Darren Waller,NYG,Flex Filler
+8,WR,Davante Adams,LV,League Winner
+5.6,WR,David Bell,CLE,Taxi Squad Stash
+7.4,RB,David Montgomery,DET,Weekly Starter
+7.5,TE,David Njoku,CLE,Weekly Starter
+5.3,QB,Davis Mills,HOU,Waiver Wire Warrior
+6.2,TE,Dawson Knox,BUF,Bench Depth
+5.3,WR,Dayton Wade,Ole Miss,Waiver Wire Warrior
+5.5,WR,De'Zhaun Stribling,Oklahoma State,Waiver Wire Warrior
+5.5,WR,DeAndre Carter,LV,Waiver Wire Warrior
+5.5,WR,Deandre Carter,LAC,Waiver Wire Warrior
+6.5,WR,DeAndre Hopkins,TEN,Flex Filler
+7.7,WR,Deebo Samuel,SF,Weekly Starter
+6,WR,Deion Smith,LSU,Taxi Squad Stash
+5.2,WR,Deion Smith,LSU,Waiver Wire Warrior
+6.5,WR,Demario Douglas,NE,Flex Filler
+5.6,RB,Deon Jackson,IND,Taxi Squad Stash
+6.6,QB,Derek Carr,NO,Flex Filler
+6.3,WR,Derius Davis,LAC,Bench Depth
+7.6,RB,Derrick Henry,TEN,Weekly Starter
+7.1,QB,Deshaun Watson,CLE,Weekly Starter
+6.4,QB,Desmond Ridder,ATL,Bench Depth
+6.2,RB,Deuce Vaughn,DAL,Bench Depth
+5.4,WR,Devaughn Vele,Utah,Waiver Wire Warrior
+6.7,QB,Devin Brown,Ohio State,Flex Filler
+5.6,WR,Devin Duvernay,BAL,Taxi Squad Stash
+5.5,QB,Devin Leary,Kentucky,Waiver Wire Warrior
+7.5,RB,Devin Neal,Kansas,Weekly Starter
+7.4,RB,Devin Neal,Kansas,Weekly Starter
+6.4,RB,Devin Singletary,HOU,Bench Depth
+7.7,RB,Devon Achane,MIA,Weekly Starter
+8.1,WR,Devonta Smith,PHI,League Winner
+6.7,WR,Devontez Walker,North Carolina,Flex Filler
+6,RB,Dilin Jones,Wisconsin,Taxi Squad Stash
+7,QB,Dillion Gabriel,Oregon,Weekly Starter
+6.1,QB,Dillion Gabriel,Oklahoma,Bench Depth
+6.4,RB,Dillon Johnson,Washington,Flex Filler
+6.4,WR,Diontae Johnson,PIT,Bench Depth
+6,WR,DJ Chark,CAR,Bench Depth
+6.6,RB,DJ Giddens,Kansas State,Flex Filler
+7.1,QB,DJ Lagway,Florida,Weekly Starter
+7.9,WR,DJ Moore,CHI,Weekly Starter
+6.2,QB,DJ Uiagalelei,Oregon State,Bench Depth
+6,QB,DJ Uiagalelei,Florida State,Taxi Squad Stash
+7.9,WR,DK Metcalf,SEA,Weekly Starter
+6.1,WR,Dominic Lovett,Georgia,Bench Depth
+5.9,WR,Dominic Lovett,Georgia,Taxi Squad Stash
+5.8,TE,Donald Parham Jr.,LAC,Taxi Squad Stash
+7.1,RB,Donovan Edwards,Michigan,Weekly Starter
+6.5,RB,Donovan Edwards,Michigan,Flex Filler
+5.5,TE,Donovan Green,Texas A&M,Waiver Wire Warrior
+6,WR,Dontayvion Wicks,GB,Bench Depth
+6.1,WR,Dorian Singer,Utah,Bench Depth
+5.9,WR,Dorian Singer,USC,Taxi Squad Stash
+7.6,WR,Drake London,ATL,Weekly Starter
+8.4,QB,Drake Maye,North Carolina,Franchise Cornerstone
+7,QB,Drew Allar,Penn State,Weekly Starter
+6.5,TE,Duce Robinson,USC,Bench Depth
+5.3,TE,Durham Smythe,MIA,Waiver Wire Warrior
+5.8,WR,Dyami Brown,WAS,Taxi Squad Stash
+6.6,RB,Dylan Edwards,Colorado,Flex Filler
+6.4,RB,Dylan Laube,New Hampshire,Bench Depth
+6.1,QB,Dylan Lonergan,Alabama,Bench Depth
+7,QB,Dylan Raiola,Nebraska,Weekly Starter
+6.7,RB,Dylan Sampson,Tennessee,Flex Filler
+6.1,QB,EJ Smith,Texas A&M,Bench Depth
+6.3,QB,Eli Holstein,Pittsburgh,Bench Depth
+5.8,TE,Eli Raridon,Notre Dame,Taxi Squad Stash
+6.4,WR,Elic Ayomanor,Stanford,Bench Depth
+5.4,TE,Elijah Arroyo,Miami,Bench Depth
+6.5,RB,Elijah Mitchell,SF,Flex Filler
+6.7,WR,Elijah Moore,CLE,Flex Filler
+5.9,RB,Emani Bailey,TCU,Taxi Squad Stash
+5.6,RB,Emanuel Wilson,GB,Taxi Squad Stash
+5.6,RB,Emari Demercado,ARI,Taxi Squad Stash
+7.8,WR,Emeka Egbuka,Ohio State,Weekly Starter
+7.6,WR,Emeka Egbuka,Ohio State,Weekly Starter
+6.6,RB,Emmanuel Henderson,Alabama,Flex Filler
+5.9,RB,Eric Gray,NYG,Taxi Squad Stash
+6.2,TE,Erick All,Iowa,Bench Depth
+6,WR,Erik Ezukanma,MIA,Bench Depth
+6.4,TE,Ethan Davis,Tennessee,Bench Depth
+6.1,QB,Ethan Grunkmeyer,Penn State,Bench Depth
+7.3,TE,Evan Engram,JAC,Weekly Starter
+5.9,RB,Evan Hull,IND,Taxi Squad Stash
+5.8,RB,Evan Pryor,Ohio State,Taxi Squad Stash
+5.5,RB,Evan Pryor,Ohio State,Waiver Wire Warrior
+7.4,WR,Evan Stewart,Oregon,Weekly Starter
+6.1,RB,Ezekiel Elliott,NE,Bench Depth
+5.9,RB,Frank Gore Jr.,Southern Miss,Taxi Squad Stash
+5.8,RB,Gabe Ervin Jr.,Nebraska,Taxi Squad Stash
+5.5,RB,Gabe Ervin Jr.,Nebraska,Waiver Wire Warrior
+6.7,WR,Gabriel Davis,BUF,Flex Filler
+6.7,WR,Gabe Davis,BUF,Flex Filler
+6.4,QB,Gardner Minshew,IND,Bench Depth
+8.2,WR,Garrett Wilson,NYJ,League Winner
+5.6,RB,Gary Brightwell,NYG,Taxi Squad Stash
+5.2,WR,Gary Bryant Jr,Oregon,Waiver Wire Warrior
+6.4,WR,Gatlin Bear,Michigan,Bench Depth
+6.9,RB,Gavin Sawchuk,Oklahoma,Flex Filler
+6.8,QB,Geno Smith,SEA,Flex Filler
+5.7,RB,George Holani,Boise State,Taxi Squad Stash
+7.5,TE,George Kittle,SF,Weekly Starter
+6.1,RB,George Pettaway,North Carolina,Bench Depth
+7.7,WR,George Pickens,PIT,Weekly Starter
+6.5,TE,Gerald Everett,LAC,Bench Depth
+5.9,QB,Graham Mertz,Florida,Taxi Squad Stash
+5.6,QB,Graham Mertz,Florida,Taxi Squad Stash
+5.3,TE,Grant Calcaterra,PHI,Waiver Wire Warrior
+5.3,QB,Grant Wells,Virginia Tech,Waiver Wire Warrior
+6,QB,Grayson McCall,Coastal Carolina,Bench Depth
+5.8,QB,Grayson McCall,NC State,Taxi Squad Stash
+5.5,WR,Greg Dortch,ARI,Waiver Wire Warrior
+6.3,TE,Greg Dulcich,DEN,Bench Depth
+6.6,QB,Gunner Stockton,Georgia,Flex Filler
+6.8,RB,Gus Edwards,BAL,Flex Filler
+5.8,TE,Harrison Bryant,CLE,Taxi Squad Stash
+5.8,RB,Harry Parrish,Miami,Taxi Squad Stash
+5.6,RB,Harry Parrish,Miami,Taxi Squad Stash
+6,TE,Hayden Hurst,CAR,Bench Depth
+6.5,WR,Hollywood Brown,ARI,Flex Filler
+6.5,WR,Marquise Brown,ARI,Flex Filler
+5.5,QB,Hudson Card,Purdue,Waiver Wire Warrior
+6.6,TE,Hunter Henry,NE,Flex Filler
+5.3,TE,Hunter Long,LAR,Waiver Wire Warrior
+6,WR,Hunter Renfrow,LV,Bench Depth
+6.6,WR,Hykeem Williams,Florida State,Flex Filler
+5.3,TE,Ian Thomas,CAR,Waiver Wire Warrior
+5.8,TE,Irv Smith Jr.,CIN,Taxi Squad Stash
+5.4,TE,Isaac Rex,BYU,Waiver Wire Warrior
+6.7,RB,Isaiah Davis,South Dakota State,Flex Filler
+6,WR,Isaiah Hodgins,NYG,Bench Depth
+6.3,TE,Isaiah Likely,BAL,Bench Depth
+5.8,WR,Isaiah Mckenzie,IND,Taxi Squad Stash
+5.8,WR,Isaiah Neyor,Nebraska,Taxi Squad Stash
+5.4,WR,Isaiah Neyor,Texas,Waiver Wire Warrior
+5.8,WR,Isaiah Williams,Illinois,Taxi Squad Stash
+6.9,WR,Isiah Bond,Alabama,Flex Filler
+6.9,RB,Isiah Pacheco,KC,Flex Filler
+6.6,WR,J. Michael Sturdivant,UCLA,Flex Filler
+5.9,WR,J. Michael Sturdivant,UCLA,Taxi Squad Stash
+5.9,WR,Ja’Corey Brooks,Alabama,Taxi Squad Stash
+6.7,WR,Ja’Lynn Polk,Washington,Flex Filler
+8.8,WR,Ja'Marr Chase,CIN,Franchise Cornerstone
+6.4,RB,Ja'Quinden Jackson,Utah,Bench Depth
+7.2,TE,Ja'Tavion Sanders,Texas,Weekly Starter
+6,RB,Jabari Small,Tennessee,Taxi Squad Stash
+5.8,RB,Jabari Small,Tennessee,Taxi Squad Stash
+7.2,QB,Jackson Arnold,Oklahoma,Weekly Starter
+7.1,WR,Jacob Cowing,Arizona,Weekly Starter
+6.1,WR,Jacorey Brooks,Louisville,Bench Depth
+6.7,QB,Jaden Rashada,Arizona State,Flex Filler
+6.3,TE,Jaden Reddell,Georgia,Bench Depth
+5.4,RB,Jaden Shirden,Monmouth,Waiver Wire Warrior
+6.1,QB,Jadyn Davis,Michigan,Bench Depth
+7.3,WR,Jahan Dotson,WAS,Weekly Starter
+6.7,TE,Jaheim Bell,Florida State,Flex Filler
+8.5,RB,Jahmyr Gibbs,DET,League Winner
+6.1,WR,Jake Bobo,SEA,Bench Depth
+6.3,TE,Jake Briningstool,Clemson,Bench Depth
+7.2,TE,Jake Ferguson,DAL,Weekly Starter
+5.3,QB,Jake Garcia,Missouri,Waiver Wire Warrior
+6.2,TE,Jake Johnson,Texas A&M,Bench Depth
+6.4,WR,Jakobi Meyers,LV,Bench Depth
+5.6,RB,Jaleel McLaughlin,DEN,Taxi Squad Stash
+6.2,TE,Jaleel Skinner,Miami,Bench Depth
+5.9,WR,Jalen Brown,LSU,Taxi Squad Stash
+5.8,WR,Jalen Coker,Holy Cross,Taxi Squad Stash
+6.2,WR,Jalen Hale,Alabama,Bench Depth
+9.3,QB,Jalen Hurts,PHI,Generational
+6.4,WR,Jalen McMillan,Washington,Bench Depth
+6.6,QB,Jalen Milroe,Alabama,Flex Filler
+6.2,QB,Jalen Milroe,Alabama,Bench Depth
+5.8,WR,Jalen Tolbert,DAL,Taxi Squad Stash
+6,RB,Jalen White,Georgia Southern,Bench Depth
+6.6,WR,Jalil Farooq,Oklahoma,Flex Filler
+5.9,WR,Jalil Farooq,Oklahoma,Taxi Squad Stash
+6.9,WR,Jalin Hyatt,NYG,Flex Filler
+6.2,QB,Jalon Daniels,Kansas,Bench Depth
+5.6,QB,Jalon Daniels,Kansas,Taxi Squad Stash
+6.1,RB,Jamaal Williams,NO,Bench Depth
+6.8,WR,Jamari Thrash,Louisville,Flex Filler
+6.8,RB,Jamarion Miller,Alabama,Flex Filler
+5.6,QB,Jameis Winston,NO,Taxi Squad Stash
+7,RB,James Conner,ARI,Weekly Starter
+7.8,RB,James Cook,BUF,Weekly Starter
+6.5,RB,James Peoples,Ohio State,Flex Filler
+6.7,WR,Jameson Williams,DET,Flex Filler
+6.2,WR,Jaquaize Pettaway,Oklahoma,Bench Depth
+7.8,QB,Jared Goff,DET,Weekly Starter
+5.8,TE,Jared Wiley,TCU,Taxi Squad Stash
+5.6,RB,Jaret Patterson,WAS,Taxi Squad Stash
+6,RB,Jarquez Hunter,Auburn,Taxi Squad Stash
+5.9,RB,Jarquez Hunter,Auburn,Taxi Squad Stash
+5.6,WR,Jarvis Landry,NO,Taxi Squad Stash
+6.3,RB,Jase McClellan,Alabama,Bench Depth
+6,WR,Jason Brownlee,NYJ,Bench Depth
+6.3,WR,Jauan Jennings,SF,Bench Depth
+5.3,WR,Javon Antonio,Colorado,Waiver Wire Warrior
+6.2,WR,Javon Baker,UCF,Bench Depth
+7.3,RB,Javonte Williams,DEN,Weekly Starter
+6.7,RB,Jawhar Jordan,Louisville,Flex Filler
+7.8,WR,Jaxon Smith-Njigba,SEA,Weekly Starter
+7.3,QB,Jaxson Dart,Mississippi,Weekly Starter
+6.2,QB,Jaxson Dart,Mississippi,Bench Depth
+8.3,QB,Jayden Daniels,LSU,League Winner
+5.5,QB,Jayden de Laura,Transfer Portal,Waiver Wire Warrior
+5.5,QB,Jayden de Laura,Arizona,Waiver Wire Warrior
+6.9,RB,Jayden Ott,California,Flex Filler
+7.5,WR,Jayden Reed,GB,Weekly Starter
+6.4,RB,Jaydon Blue,Texas,Bench Depth
+6,RB,Jaylan Knighton,SMU,Taxi Squad Stash
+5.6,RB,Jaylan Knighton,SMU,Taxi Squad Stash
+8,WR,Jaylen Waddle,MIA,League Winner
+6.9,RB,Jaylen Warren,PIT,Flex Filler
+6.5,RB,Jaylen Wright,Tennessee,Flex Filler
+5.4,WR,Je'Quan Burton,Florida Atlantic,Waiver Wire Warrior
+5.5,QB,Jeff Sims,Nebraska,Waiver Wire Warrior
+5.7,TE,Jelani Thurman,Ohio State,Taxi Squad Stash
+5.9,TE,Jelani Woods,IND,Taxi Squad Stash
+6.1,WR,Jerand Bradley,Texas Tech,Bench Depth
+6,RB,Jeremiah Cobb,Auburn,Taxi Squad Stash
+7.4,WR,Jeremiah Smith,Ohio State,Weekly Starter
+5.7,TE,Jeremy Ruckert,NYJ,Taxi Squad Stash
+6.5,WR,Jermaine Burton,Alabama,Flex Filler
+7.3,RB,Jerome Ford,CLE,Weekly Starter
+7.1,RB,Jerrick Gibson,Texas,Weekly Starter
+6.2,RB,Jerick McKinnon,KC,Bench Depth
+6.8,WR,Jerry Jeudy,DEN,Flex Filler
+6.1,WR,Jha’Quan Jackson,Tulane,Bench Depth
+5.5,QB,Jimmy Garoppolo,LV,Waiver Wire Warrior
+6.3,WR,Jimmy Horn Jr.,Colorado,Bench Depth
+6,WR,Jimmy Horn Jr.,Colorado,Bench Depth
+5.5,RB,Jirehl Brock,Iowa State,Waiver Wire Warrior
+7.9,QB,JJ McCarthy,Michigan,Weekly Starter
+6.8,RB,JK Dobbins,BAL,Flex Filler
+6.3,RB,Jo'Quavious Marks,USC,Bench Depth
+6.2,RB,Jo'Quavious Marks,Mississippi State,Bench Depth
+8.5,QB,Joe Burrow,CIN,League Winner
+6.4,QB,Joe Milton,Tennessee,Bench Depth
+7.1,RB,Joe Mixon,CIN,Weekly Starter
+5.3,TE,John Bates,WAS,Waiver Wire Warrior
+5.8,WR,John Metchie,HOU,Taxi Squad Stash
+6,WR,Johnny Wilson,Florida State,Bench Depth
+6.8,WR,Johntay Cook II,Texas,Flex Filler
+5.7,WR,JoJo Earle,TCU,Taxi Squad Stash
+5.4,WR,JoJo Earle,TCU,Waiver Wire Warrior
+6.6,RB,Jonathan Brooks,Texas,Flex Filler
+6.4,WR,Jonathan Mingo,CAR,Bench Depth
+8.4,RB,Jonathan Taylor,IND,League Winner
+6.1,TE,Jonnu Smith,ATL,Bench Depth
+8.2,WR,Jordan Addison,MIN,League Winner
+7.7,QB,Jordan Love,GB,Weekly Starter
+6,RB,Jordan Marshall,Michigan,Taxi Squad Stash
+5.6,RB,Jordan Mason,SF,Taxi Squad Stash
+6.1,QB,Jordan Travis,Florida State,Bench Depth
+5.9,RB,Jordan Waters,Duke,Taxi Squad Stash
+5.9,WR,Jordan Whittington,Texas,Taxi Squad Stash
+9.4,QB,Josh Allen,BUF,Generational
+6.1,QB,Josh Dobbs,MIN,Bench Depth
+7.3,WR,Josh Downs,IND,Weekly Starter
+7.5,RB,Josh Jacobs,LV,Weekly Starter
+5.3,TE,Josh Oliver,MIN,Waiver Wire Warrior
+6.3,WR,Josh Palmer,LAC,Bench Depth
+6.3,WR,Joshua Palmer,LAC,Bench Depth
+6.3,WR,Josh Reynolds,DET,Bench Depth
+5.3,TE,Josh Whyle,TEN,Waiver Wire Warrior
+6.2,RB,Joshua Kelley,LAC,Bench Depth
+5.8,RB,Jovantae Barnes,Oklahoma,Taxi Squad Stash
+6.2,WR,JuJu Smith-Schuster,NE,Bench Depth
+7.1,QB,Julian Sayan,Alabama,Weekly Starter
+6.6,WR,Jurrion Dickey,Oregon,Flex Filler
+7.1,RB,Justice Haynes,Alabama,Weekly Starter
+6.3,RB,Justice Hill,BAL,Bench Depth
+8.2,QB,Justin Fields,CHI,League Winner
+9,QB,Justin Herbert,LAC,Generational
+5.6,RB,Justin Jackson,DET,Taxi Squad Stash
+9.2,WR,Justin Jefferson,MIN,Generational
+6,TE,Juwan Johnson,NO,Bench Depth
+6.2,WR,K.J. Osborn,MIN,Bench Depth
+6.2,WR,Kadarius Toney,KC,Bench Depth
+6.1,WR,Kaden Saunders,Penn State,Bench Depth
+5.8,QB,Kaidon Salter,Liberty,Taxi Squad Stash
+5.8,WR,Kaleb Brown,Iowa,Taxi Squad Stash
+6.1,RB,Kaleb Jackson,LSU,Bench Depth
+5.5,WR,Kalif Raymond,DET,Waiver Wire Warrior
+6,RB,Kameron Davis,Florida State,Taxi Squad Stash
+6.2,RB,Kareem Hunt,CLE,Bench Depth
+5.5,WR,KaVontae Turpin,DAL,Waiver Wire Warrior
+6.1,RB,Kavosiey Smoke,Colorado,Bench Depth
+5.4,RB,Kavosiey Smoke,Colorado,Waiver Wire Warrior
+5.5,RB,Kayron Lynch-Adams,Massachusetts,Waiver Wire Warrior
+5.9,WR,Kayshon Boutte,NE,Taxi Squad Stash
+6.9,RB,Kaytron Allen,Penn State,Flex Filler
+5.7,RB,Keaontay Ingram,ARI,Taxi Squad Stash
+6.2,RB,Keaton Mitchell,BAL,Bench Depth
+5.7,QB,Kedon Slovis,BYU,Taxi Squad Stash
+6.5,RB,Kedren Young,Notre Dame,Flex Filler
+6,RB,Kedrick Resscano,Michigan State,Taxi Squad Stash
+7.7,WR,Keenan Allen,LAC,Weekly Starter
+5.6,WR,Keith Kirkwood,NO,Taxi Squad Stash
+6.4,RB,Kendall Milton,Georgia,Bench Depth
+6.1,RB,Kendre Miller,NO,Bench Depth
+5.5,WR,Kendrick Bourne,NE,Waiver Wire Warrior
+6.7,RB,Kenneth Gainwell,PHI,Flex Filler
+7.9,RB,Kenneth Walker,SEA,Weekly Starter
+6.5,QB,Kenny Pickett,PIT,Flex Filler
+5.6,RB,Kenyan Drake,BAL,Taxi Squad Stash
+7.9,WR,Keon Coleman,Florida State,Weekly Starter
+6.1,WR,Kevin Coleman,Mississippi State,Bench Depth
+6.6,WR,Kevin Concepcion,NC State,Flex Filler
+6.5,RB,Kevin Riley,Alabama,Flex Filler
+6.4,RB,Khalil Herbert,CHI,Bench Depth
+6.6,WR,Khalil Shakir,BUF,Flex Filler
+5.6,RB,Kimani Vidal,Troy,Taxi Squad Stash
+6.5,QB,Kirk Cousins,MIN,Flex Filler
+6.2,QB,KJ Jefferson,Arkansas,Bench Depth
+6.1,QB,KJ Jefferson,UCF,Bench Depth
+6.4,WR,Kobe Prentice,Alabama,Bench Depth
+5.2,WR,Konata Mumpfield,Pittsburgh,Waiver Wire Warrior
+5.7,QB,Kurtis Rourke,Ohio,Taxi Squad Stash
+5.5,WR,Kyle Ford,UCLA,Waiver Wire Warrior
+6.2,QB,Kyle McCord,Ohio State,Bench Depth
+5.8,QB,Kyle McCord,Syracuse,Taxi Squad Stash
+6.3,WR,Kyle Phillips,TEN,Bench Depth
+7.4,TE,Kyle Pitts,ATL,Weekly Starter
+5.7,RB,Kyle Robichaux,Boston College,Taxi Squad Stash
+8.2,QB,Kyler Murray,ARI,League Winner
+5.5,RB,Kylin Hill,GB,Waiver Wire Warrior
+7.7,RB,Kyren Williams,LAR,Weekly Starter
+7.1,WR,Ladd McConkey,Georgia,Weekly Starter
+9.3,QB,Lamar Jackson,BAL,Generational
+5.4,RB,Larry McCammon,Florida Atlantic,Waiver Wire Warrior
+6.2,RB,Latavius Murray,BUF,Bench Depth
+6.3,RB,Le'Veon Moss,Texas A&M,Bench Depth
+6.3,RB,Leonard Fournette,TB,Bench Depth
+5.4,WR,Lideatrick Griffin,Mississippi State,Waiver Wire Warrior
+5.8,WR,Lincoln Victor,Washington State,Taxi Squad Stash
+5.9,RB,LJ Johnson,SMU,Taxi Squad Stash
+5.5,RB,LJ Johnson,SMU,Waiver Wire Warrior
+6.2,TE,Logan Thomas,WAS,Bench Depth
+5.4,QB,Luke Altmyer,Illinois,Waiver Wire Warrior
+6.9,QB,Luke Kromenhoek,Florida State,Flex Filler
+6.3,WR,Luke McCaffrey,Rice,Bench Depth
+6.9,TE,Luke Musgrave,GB,Flex Filler
+7,TE,Luke Reynolds,Penn State,Weekly Starter
+6.1,TE,Luke Schoonmaker,DAL,Bench Depth
+8.2,WR,Luther Burden,Missouri,League Winner
+6.3,QB,Maalik Murphey,Transfer Portal,Bench Depth
+6.4,QB,Mac Jones,NE,Bench Depth
+6.3,WR,Mack Hollins,ATL,Bench Depth
+6.6,WR,Malachi Corley,Western Kentucky,Flex Filler
+6.4,QB,Malachi Nelson,Boise State,Bench Depth
+6.1,WR,Malik Benson,Florida State,Bench Depth
+5.6,WR,Malik Benson,Alabama,Taxi Squad Stash
+8.3,WR,Malik Nabers,LSU,League Winner
+5.9,WR,Malik Washington,Virginia,Taxi Squad Stash
+6,WR,Marcus Rosemy-Jacksaint,Georgia,Bench Depth
+5.4,WR,Mario Williams,USC,Waiver Wire Warrior
+7.9,TE,Mark Andrews,BAL,Weekly Starter
+6.2,WR,Marquez-Valdes Scantling,KC,Bench Depth
+6.7,RB,Marshawn Lloyd,USC,Flex Filler
+8.6,WR,Marvin Harrison Jr,Ohio State,Franchise Cornerstone
+5.5,WR,Marvin Jones,JAC,Waiver Wire Warrior
+7.4,WR,Marvin Mims,DEN,Weekly Starter
+6.1,TE,Mason Fairchild,Kansas,Bench Depth
+6.3,QB,Mason Rudolph,PIT,Bench Depth
+5.6,RB,Matt Breida,NYG,Taxi Squad Stash
+6.9,WR,Matthew Golden,Texas,Flex Filler
+6.9,QB,Matthew Stafford,LAR,Flex Filler
+6.2,WR,Mecole Hardman,NYJ,Bench Depth
+7,WR,Micah Hudson,Texas Tech,Weekly Starter
+5.3,RB,Michael Carter,NYJ,Waiver Wire Warrior
+6,WR,Michael Gallup,DAL,Bench Depth
+7.3,TE,Michael Mayer,LV,Weekly Starter
+6.5,QB,Michael Penix Jr.,Washington,Flex Filler
+8.4,WR,Michael Pittman,IND,League Winner
+6.7,QB,Michael Pratt,Tulane,Flex Filler
+6.3,TE,Michael Smith,South Carolina,Bench Depth
+6.3,WR,Michael Thomas,NO,Bench Depth
+6,TE,Michael Trigg,Baylor,Taxi Squad Stash
+5.9,TE,Michael Trigg,Mississippi,Bench Depth
+6.6,WR,Michael Wilson,ARI,Flex Filler
+5.6,RB,Mike Boone,HOU,Taxi Squad Stash
+7.1,WR,Mike Evans,TB,Weekly Starter
+5.9,TE,Mike Gesicki,NE,Taxi Squad Stash
+6.6,WR,Mike Matthews,Tennessee,Flex Filler
+6.8,WR,Mike Williams,LAC,Flex Filler
+6.4,RB,Miles Sanders,CAR,Bench Depth
+5.9,RB,Miyan Williams,Ohio State,Taxi Squad Stash
+6.1,WR,Monaray Baldwin,Baylor,Bench Depth
+5.7,WR,Monaray Baldwin,Baylor,Taxi Squad Stash
+6.1,RB,Montrell Johnson,Florida,Bench Depth
+6.1,RB,Montrell Johnson,Florida,Bench Depth
+5.9,WR,Moose Muhammed III,Texas A&M,Bench Depth
+6.6,WR,Mylan Graham,Ohio State,Flex Filler
+5.3,RB,Myles Gaskin,MIN,Waiver Wire Warrior
+7.3,RB,Najee Harris,PIT,Weekly Starter
+RBBR,Position,Name,Team,FF Projection
+6,RB,Nate Frazier,Georgia,Taxi Squad Stash
+5.5,WR,Nelson Agholor,BAL,Waiver Wire Warrior
+6.9,WR,Nic Anderson,Oklahoma,Flex Filler
+7.3,QB,Nicholaus Iamaleava,Tennessee,Weekly Starter
+7.4,RB,Nick Chubb,CLE,Weekly Starter
+5.7,QB,Nick Evers,Wisconsin,Taxi Squad Stash
+7.6,RB,Nick Singleton,Penn State,Weekly Starter
+5.5,WR,Nick Westbrook-Ikhine,TEN,Waiver Wire Warrior
+7.1,WR,Nico Collins,HOU,Weekly Starter
+6.1,WR,Noah Brown,HOU,Bench Depth
+6.1,TE,Noah Fant,SEA,Bench Depth
+5.7,TE,Noah Grey,KC,Taxi Squad Stash
+5.5,QB,Noah Kim,Coastal Carolina,Waiver Wire Warrior
+5.5,QB,Noah Kim,Michigan State,Waiver Wire Warrior
+6.5,WR,Noah Rogers,NC State,Flex Filler
+6.5,WR,Nyckoles Harbor,South Carolina,Flex Filler
+6.4,WR,Odell Beckham Jr.,BAL,Bench Depth
+5.5,WR,Olamide Zaccheaus,PHI,Waiver Wire Warrior
+6.8,RB,Ollie Gordon II,Oklahoma State,Flex Filler
+6.6,RB,Omarian Hampton,North Carolina,Flex Filler
+6.6,TE,Oscar Delp,Georgia,Flex Filler
+6.3,WR,Parker Washington,JAC,Bench Depth
+5.8,WR,Parris Campbell,NYG,Taxi Squad Stash
+7.2,TE,Pat Freiermuth,PIT,Weekly Starter
+9.2,QB,Patrick Mahomes,KC,Generational
+5.3,TE,Payne Durham,TB,Waiver Wire Warrior
+5.5,QB,Payton Thorne,Auburn,Waiver Wire Warrior
+6.4,TE,Pearce Spurlin,Georgia,Bench Depth
+6.6,WR,Perry Thompson,Auburn,Flex Filler
+5.8,TE,Peyton Hendershot,DAL,Taxi Squad Stash
+5.5,QB,Phil Jurkovec,Pittsburgh,Waiver Wire Warrior
+6.1,RB,Phil Mafah,Clemson,Bench Depth
+5.8,RB,Phil Mafah,Clemson,Taxi Squad Stash
+6.2,RB,Pierre Strong,CLE,Bench Depth
+6,QB,Preston Stone,SMU,Taxi Squad Stash
+5.4,QB,Preston Stone,SMU,Waiver Wire Warrior
+8.3,WR,Puka Nacua,LAR,League Winner
+6.6,WR,Quentin Johnston,LAC,Flex Filler
+5.8,WR,Quez Watkins,PHI,Taxi Squad Stash
+7.4,QB,Quinn Ewers,Texas,Weekly Starter
+6.4,QB,Quinn Ewers,Texas,Flex Filler
+7.8,RB,Quinshon Judkins,Ohio State,Weekly Starter
+8.2,RB,Rachaad White,TB,League Winner
+5.6,RB,Raheem Blackshear,CAR,Taxi Squad Stash
+7.5,RB,Raheem Mostert,MIA,Weekly Starter
+6.9,RB,Raheim Sanders,South Carolina,Flex Filler
+6.4,RB,Raheim Sanders,Arkansas,Bench Depth
+5.8,WR,Rakim Jarrett,TB,Taxi Squad Stash
+6.8,RB,Raleek Brown,Arizona State,Flex Filler
+5.8,WR,Ramel Keyton,Tennessee,Taxi Squad Stash
+5.7,WR,Ramel Keyton,Tennessee,Taxi Squad Stash
+5.8,WR,RaRa Thomas,Georgia,Taxi Squad Stash
+5.4,WR,RaRa Thomas,Georgia,Waiver Wire Warrior
+5.9,RB,Rashaad Penny,PHI,Taxi Squad Stash
+7.5,WR,Rashee Rice,KC,Weekly Starter
+6.2,RB,Rasheen Ali,Marshall,Bench Depth
+5.8,WR,Rashid Shaheed,NO,Taxi Squad Stash
+6.2,WR,Rashod Bateman,BAL,Bench Depth
+6.7,RB,Ray Davis,Kentucky,Flex Filler
+7.2,RB,Rhamondre Stevenson,NE,Weekly Starter
+5.8,RB,Richard Reese,Baylor,Taxi Squad Stash
+6.6,RB,Richard Young,Alabama,Flex Filler
+6.5,WR,Ricky Pearsall,Florida,Flex Filler
+5.8,RB,Rico Dowdle,DAL,Taxi Squad Stash
+5.7,TE,Riley Williams,Miami,Taxi Squad Stash
+5.3,TE,Robert Tonyan,CHI,Waiver Wire Warrior
+6.2,WR,Robert Woods,HOU,Bench Depth
+6.8,WR,Roman Wilson,Michigan,Flex Filler
+7.6,WR,Rome Odunze,Washington,Weekly Starter
+6.6,WR,Romeo Doubs,GB,Flex Filler
+6.5,WR,Rondale Moore,ARI,Bench Depth
+5.9,WR,Ronnie Bell,SF,Taxi Squad Stash
+5.6,RB,Ronnie Rivers,LAR,Taxi Squad Stash
+6.4,RB,Roschon Johnson,CHI,Bench Depth
+7.1,RB,Rueben Owens,Texas A&M,Weekly Starter
+7.7,QB,Russell Wilson,DEN,Weekly Starter
+5.4,WR,Ryan Flournoy,Southeast Missouri,Waiver Wire Warrior
+6.1,QB,Ryan Puglisi,Georgia,Bench Depth
+6.2,QB,Ryan Tannehill,TEN,Bench Depth
+7,WR,Ryan Williams,Auburn,Weekly Starter
+7,WR,Ryan Wingo,Texas,Weekly Starter
+6.4,QB,Sam Hartman,Notre Dame,Flex Filler
+6.1,QB,Sam Horn,Missouri,Bench Depth
+6.5,QB,Sam Howell,WAS,Flex Filler
+5.5,QB,Sam Huard,Cal Poly,Waiver Wire Warrior
+5.5,QB,Sam Huard,Cal Poly,Waiver Wire Warrior
+8.2,TE,Sam LaPorta,DET,League Winner
+5.9,RB,Samaje Perine,DEN,Taxi Squad Stash
+8,RB,Saquon Barkley,NYG,League Winner
+6.1,WR,Savion Williams,TCU,Bench Depth
+5.5,WR,Savion Williams,TCU,Waiver Wire Warrior
+5.9,RB,Sean Tucker,TB,Taxi Squad Stash
+6.4,WR,Shazz Preston,Transfer Portal,Bench Depth
+7.3,QB,Shedeur Sanders,Colorado,Weekly Starter
+6.6,QB,Shedeur Sanders,Colorado,Flex Filler
+6.6,WR,Shelton Sampson Jr.,LSU,Flex Filler
+5.6,WR,Shi Smith,CAR,Taxi Squad Stash
+6.5,WR,Skyy Moore,KC,Flex Filler
+6.5,QB,Spencer Rattler,South Carolina,Flex Filler
+5.7,QB,Spencer Sanders,Mississippi,Taxi Squad Stash
+6.1,WR,Squirrel White,Tennessee,Bench Depth
+8.2,WR,Stefon Diggs,BUF,League Winner
+8.3,TE,T.J. Hockenson,MIN,League Winner
+5.8,WR,Tahj Washington,USC,Taxi Squad Stash
+6.4,RB,Tank Bigsby,JAC,Bench Depth
+7.4,WR,Tank Dell,HOU,Weekly Starter
+5.6,QB,Tanner Mordecai,Wisconsin,Taxi Squad Stash
+6.1,QB,Taylen Green,Arkansas,Bench Depth
+5.9,QB,Taylor Heinicke,ATL,Taxi Squad Stash
+7.1,RB,Taylor Tatum,Oklahoma,Weekly Starter
+7.6,WR,Tee Higgins,CIN,Weekly Starter
+6.2,WR,Terrace Marshall,CAR,Bench Depth
+5.8,TE,Terrance Ferguson,Oregon,Taxi Squad Stash
+6,WR,Terrell Vaughn,Utah State,Bench Depth
+6.9,WR,Terry McLaurin,WAS,Flex Filler
+7.3,WR,Tetairoa McMillan,Arizona,Weekly Starter
+5.9,RB,Thaddius Franklin,UL-Monroe,Taxi Squad Stash
+5.5,RB,Thaddius Franklin,Miami,Waiver Wire Warrior
+6.1,TE,Theo Johnson,Penn State,Bench Depth
+5.9,WR,Theo Wease,Missouri,Taxi Squad Stash
+5.9,WR,Theo Wease,Missouri,Taxi Squad Stash
+5.8,TE,Tip Reiman,Illinois,Taxi Squad Stash
+7.9,RB,Tony Pollard,DAL,Weekly Starter
+6.2,WR,Tory Horton,Colorado State,Bench Depth
+6.6,WR,Traeshon Holden,Oregon,Flex Filler
+5.8,WR,Traeshon Holden,Oregon,Taxi Squad Stash
+8.3,RB,Travis Etienne,JAC,League Winner
+5.6,RB,Travis Homer,CHI,Taxi Squad Stash
+6.6,WR,Travis Hunter,Colorado,Flex Filler
+8.4,TE,Travis Kelce,KC,League Winner
+5.7,RB,Trayveon Williams,CIN,Taxi Squad Stash
+5.3,WR,Tre Mosley,Michigan State,Waiver Wire Warrior
+6.4,WR,Tre Tucker,LV,Bench Depth
+5.5,RB,Treshaun Ward,Kansas State,Waiver Wire Warrior
+7.7,RB,TreVeyon Henderson,Ohio State,Weekly Starter
+7.5,RB,TreVeyon Henderson,Ohio State,Weekly Starter
+6,RB,Trevonte Citizen,Miami,Taxi Squad Stash
+7.4,RB,Trevor Etienne,Georgia,Weekly Starter
+8.5,QB,Trevor Lawrence,JAC,League Winner
+6.9,RB,Trey Benson,Florida State,Flex Filler
+5.8,TE,Trey Knox,South Carolina,Taxi Squad Stash
+6.4,QB,Trey Lance,DAL,Bench Depth
+7.8,TE,Trey McBride,ARI,Weekly Starter
+6.3,WR,Trey Palmer,TB,Bench Depth
+5.9,RB,Trey Sanders,TCU,Taxi Squad Stash
+5.5,RB,Trey Sanders,TCU,Waiver Wire Warrior
+6.4,TE,Trey'Dez Green,LSU,Bench Depth
+6,RB,Treyaun Webb,Florida,Taxi Squad Stash
+6.8,WR,Treylon Burks,TEN,Flex Filler
+7.7,WR,Troy Franklin,Oregon,Weekly Starter
+8.2,QB,Tua Tagovailoa,MIA,League Winner
+6.9,TE,Tucker Kraft,GB,Flex Filler
+6.3,WR,Tutu Atwell,LAR,Bench Depth
+6.9,RB,Ty Chandler,MIN,Flex Filler
+5.5,WR,TY Hilton,DAL,Waiver Wire Warrior
+5.9,QB,Ty Simpson,Alabama,Taxi Squad Stash
+5.9,QB,Ty Thompson,Tulane,Taxi Squad Stash
+5.4,QB,Ty Thompson,Oregon,Waiver Wire Warrior
+6.3,RB,Tyjae Spears,TEN,Bench Depth
+6.2,RB,Tyler Allgier,ATL,Bench Depth
+6.2,WR,Tyler Boyd,CIN,Bench Depth
+5.5,QB,Tyler Buchner,Alabama,Waiver Wire Warrior
+5.1,TE,Tyler Conklin,NYJ,Waiver Wire Warrior
+5.7,WR,Tyler Harrell,Miami,Taxi Squad Stash
+5.4,WR,Tyler Harrell,Miami,Waiver Wire Warrior
+6.9,TE,Tyler Higbee,LAR,Flex Filler
+6.7,WR,Tyler Lockett,SEA,Flex Filler
+5.7,TE,Tyler Lockwood,Alabama,Taxi Squad Stash
+6.2,WR,Tyler Scott,CHI,Bench Depth
+6.6,QB,Tyler Van Dyke,Wisconsin,Flex Filler
+6.4,QB,Tyler Van Dyke,Miami,Bench Depth
+5.8,TE,Tyler Warren,Penn State,Taxi Squad Stash
+8.6,WR,Tyreek Hill,MIA,Franchise Cornerstone
+5.2,WR,Tyrese Chambers,Maryland,Waiver Wire Warrior
+5.5,RB,Tyrone Tracey Jr.,Purdue,Waiver Wire Warrior
+6.8,QB,Walker Howard,Mississippi,Flex Filler
+6.1,TE,Walker Lyons,USC,Bench Depth
+6.4,QB,Walker White,Auburn,Bench Depth
+6.3,WR,Wan'Dale Robinson,NYG,Bench Depth
+6.6,QB,Will Howard,USC,Flex Filler
+5.4,QB,Will Howard,Kansas State,Waiver Wire Warrior
+6.7,QB,Will Levis,TEN,Flex Filler
+5.7,TE,Will Mallory,IND,Taxi Squad Stash
+6,QB,Will Rogers,Transfer Portal,Bench Depth
+5.8,QB,Will Rogers,Mississippi State,Taxi Squad Stash
+6.4,RB,Will Shipley,Clemson,Flex Filler
+5.9,WR,Xavier Gipson,NYJ,Taxi Squad Stash
+7.6,WR,Xavier Leggete,South Carolina,Weekly Starter
+5.8,WR,Xavier Restrepo,Miami,Taxi Squad Stash
+6.1,WR,Xavier Weaver,Colorado,Bench Depth
+7.3,WR,Xavier Worthy,Texas,Weekly Starter
+7.6,RB,Zach Charbonnet,SEA,Weekly Starter
+5.8,TE,Zach Ertz,ARI,Taxi Squad Stash
+5.9,RB,Zach Evans,LAR,Taxi Squad Stash
+5.8,WR,Zach Pascal,ARI,Taxi Squad Stash
+7.3,WR,Zachariah Branch,USC,Weekly Starter
+6.8,RB,Zack Moss,IND,Flex Filler
+6.4,RB,Zamir White,LV,Bench Depth
+7.9,WR,Zay Flowers,BAL,Weekly Starter
+6.6,WR,Zay Jones,JAC,Flex Filler
