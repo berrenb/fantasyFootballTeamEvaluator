@@ -165,14 +165,14 @@ export default function TeamInput() {
 
     return userId ? (<div>
         <select className="form-select my-2" aria-label="Select League" onChange={e => setLeagueId(e.target.value)}>
-            <option selected>Select League</option>
-            ${leagues.map(x => (<option value={x.league_id}>{x.league_name}</option>))}
+            <option value="" defaultValue>Select League</option>
+            ${leagues.map(x => (<option value={x.league_id} key={x.league_id}>{x.league_name}</option>))}
         </select>
         <button className="btn btn-primary" onClick={getLeagueRosters}>Rank Teams</button>
     </div>) : (
         <div>
             <select className="form-select my-2" aria-label="League Provider" onChange={e => setLeagueProvider(e.target.value)}>
-                <option selected>Select League Provider</option>
+                <option value="" defaultValue>Select League Provider</option>
                 <option value="1">Sleeper</option>
                 <option value="2">MFL</option>
             </select>

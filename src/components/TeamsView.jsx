@@ -56,6 +56,7 @@ export default function TeamsView() {
     const teamScores = leagueTeams.map((team) => {
         const owner_name = ownerNames[team.owner_id] || team.owner_name;
         const playerScores = team.players.map((player) => {
+            let outputObj = {};
             if (leagueProvider === "1") {
                 const foundPlayer = playersArray.find((x) => x.player_id === player);
                 const player_name = foundPlayer.full_name;
@@ -69,9 +70,10 @@ export default function TeamsView() {
                         .includes(search_name.toLowerCase())
                 );
                 const overallPlayer = allPlayers[foundIndex];
+                allPlayers.splice(foundIndex, 1);
                 // Should we assume 0 here or 5?
                 const rbb_score = overallPlayer ? parseFloat(overallPlayer.RBBR) : 5;
-                return {player_name, rbb_score, position: foundPlayer.fantasy_positions[0]};
+                outputObj = {player_name, rbb_score, position: foundPlayer.fantasy_positions[0]}
             } else {
                 const foundIndex = allPlayers.findIndex(
                     (x) =>
@@ -86,10 +88,12 @@ export default function TeamsView() {
                                 .replaceAll("'", ""))
                 );
                 const overallPlayer = allPlayers[foundIndex];
+                allPlayers.splice(foundIndex, 1);
                 // Should we assume 0 here or 5?
                 const rbb_score = overallPlayer ? parseFloat(overallPlayer.RBBR) : 5;
-                return { player_name: player.player_name, rbb_score: rbb_score, position: player.position }
+                outputObj = { player_name: player.player_name, rbb_score: rbb_score, position: player.position };
             }
+            return outputObj;
         });
         const overall_score = playerScores.reduce((sum, player) => sum + player.rbb_score, 0);
         return { owner_name, player_scores: playerScores, overall_score: overall_score.toFixed(2), owner_id: team.owner_id };
@@ -191,14 +195,14 @@ export default function TeamsView() {
                                 </tr>
                                 </thead>
                                 <tbody>
-                                {/*{allPlayers && allPlayers.map(player => (*/}
-                                {/*    <tr>*/}
-                                {/*        <th scope="row">{player.Name}</th>*/}
-                                {/*        <th>{player.Team}</th>*/}
-                                {/*        <td>{player.Position}</td>*/}
-                                {/*        <td>{player.RBBR}</td>*/}
-                                {/*    </tr>*/}
-                                {/*))}*/}
+                                {(allPlayers && allPlayers.sort((a, b) => b.RBBR - a.RBBR).map(player => (
+                                    <tr>
+                                        <th scope="row">{player.Name}</th>
+                                        <th>{player.Team}</th>
+                                        <td>{player.Position}</td>
+                                        <td>{player.RBBR}</td>
+                                    </tr>
+                                )))}
                                 </tbody>
                             </table>
                         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import "./styles/index.css";
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
@@ -7,10 +7,14 @@ import 'toastr/build/toastr.min.css';
 import 'toastr/build/toastr.min';
 import AppRouter from "./AppRouter";
 
+
 function Root() {
     return (
         <AppRouter/>
     );
 }
 
-ReactDOM.render(<Root />, document.getElementById("root"));
+const container = document.getElementById("root");
+const root = createRoot(container);
+
+root.render(<Root />);
