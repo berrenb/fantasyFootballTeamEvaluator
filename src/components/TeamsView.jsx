@@ -9,6 +9,7 @@ export default function TeamsView() {
     const [activeTeam, setActiveTeam] = useState(null);
     const playersArray = Object.values(sleeperJSON);
     const allPlayers =  [...useStore((state) => state.sfPlayers)];
+    let allPlayersArrTest= allPlayers;
     const leagueProvider = useStore((state) => state.leagueProvider);
 
     useEffect(() => {
@@ -61,7 +62,7 @@ export default function TeamsView() {
                 const foundPlayer = playersArray.find((x) => x.player_id === player);
                 const player_name = foundPlayer.full_name;
                 const search_name = foundPlayer.search_full_name;
-                const foundIndex = allPlayers.findIndex((x) =>
+                const foundIndex = allPlayersArrTest.findIndex((x) =>
                     x.Name.toLowerCase()
                         .replaceAll(" ", "")
                         .replaceAll(".", "")
@@ -69,13 +70,16 @@ export default function TeamsView() {
                         .replaceAll("'", "")
                         .includes(search_name.toLowerCase())
                 );
-                const overallPlayer = allPlayers[foundIndex];
-                allPlayers.splice(foundIndex, 1);
+                const overallPlayer = allPlayersArrTest[foundIndex];
+                // Create a new array excluding the found player
+                const updatedAllPlayersArrTest = allPlayersArrTest.filter((_, index) => index !== foundIndex);
+                // Assign the updated array to allPlayersArrTest
+                allPlayersArrTest = updatedAllPlayersArrTest;
                 // Should we assume 0 here or 5?
                 const rbb_score = overallPlayer ? parseFloat(overallPlayer.RBBR) : 5;
                 outputObj = {player_name, rbb_score, position: foundPlayer.fantasy_positions[0]}
             } else {
-                const foundIndex = allPlayers.findIndex(
+                const foundIndex = allPlayersArrTest.findIndex(
                     (x) =>
                         x.Name.toLowerCase()
                             .replaceAll(" ", "")
@@ -87,8 +91,11 @@ export default function TeamsView() {
                                 .replaceAll("-", "")
                                 .replaceAll("'", ""))
                 );
-                const overallPlayer = allPlayers[foundIndex];
-                allPlayers.splice(foundIndex, 1);
+                const overallPlayer = allPlayersArrTest[foundIndex];
+                // Create a new array excluding the found player
+                const updatedAllPlayersArrTest = allPlayersArrTest.filter((_, index) => index !== foundIndex);
+                // Assign the updated array to allPlayersArrTest
+                allPlayersArrTest = updatedAllPlayersArrTest;
                 // Should we assume 0 here or 5?
                 const rbb_score = overallPlayer ? parseFloat(overallPlayer.RBBR) : 5;
                 outputObj = { player_name: player.player_name, rbb_score: rbb_score, position: player.position };
@@ -98,6 +105,7 @@ export default function TeamsView() {
         const overall_score = playerScores.reduce((sum, player) => sum + player.rbb_score, 0);
         return { owner_name, player_scores: playerScores, overall_score: overall_score.toFixed(2), owner_id: team.owner_id };
     });
+
 
     function obtainTopPlayers(players) {
         const positions = ['QB', 'RB', 'WR', 'TE'];
@@ -195,7 +203,7 @@ export default function TeamsView() {
                                 </tr>
                                 </thead>
                                 <tbody>
-                                {(allPlayers && allPlayers.sort((a, b) => b.RBBR - a.RBBR).map(player => (
+                                {(allPlayersArrTest && allPlayersArrTest.sort((a, b) => b.RBBR - a.RBBR).map(player => (
                                     <tr>
                                         <th scope="row">{player.Name}</th>
                                         <th>{player.Team}</th>
