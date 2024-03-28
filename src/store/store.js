@@ -1,4 +1,4 @@
-import create from "zustand";
+import { create } from "zustand";
 
 export const useStore = create((set, get) => ({
 	username: "",
@@ -14,7 +14,7 @@ export const useStore = create((set, get) => ({
 	})),
 
 	// 1 = Sleeper 2 = MFL
-	leagueProvider: "1",
+	leagueProvider: null,
 
 	setLeagueProvider: (newLeagueProvider) => set(() => ({
 		leagueProvider: newLeagueProvider,
@@ -34,10 +34,9 @@ export const useStore = create((set, get) => ({
 		leagueTeams: newLeagueTeams,
 	})),
 
-	// UserTeam
-	userTeam: {},
+	sfPlayers: [],
 
-	setUserTeam: (newUserTeam) => set(() => ({
-		userTeam: newUserTeam,
+	setSFPlayers: (newPlayers) => set(() => ({
+		sfPlayers: newPlayers,
 	})),
 }));
