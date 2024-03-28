@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/fantasyFootballTeamEvaluator/static/css/main.50dcd9df.css",
+    "main.js": "/fantasyFootballTeamEvaluator/static/js/main.ed732226.js",
+    "static/js/367.b97d423e.chunk.js": "/fantasyFootballTeamEvaluator/static/js/367.b97d423e.chunk.js",
+    "static/js/143.649efd88.chunk.js": "/fantasyFootballTeamEvaluator/static/js/143.649efd88.chunk.js",
+    "static/js/698.e5bfce84.chunk.js": "/fantasyFootballTeamEvaluator/static/js/698.e5bfce84.chunk.js",
+    "static/media/logo.png": "/fantasyFootballTeamEvaluator/static/media/logo.79c6b961ea6fc5f1865f.png",
+    "static/media/sf_dynasty_ranks_rbb.csv": "/fantasyFootballTeamEvaluator/static/media/sf_dynasty_ranks_rbb.fd22744395731193d435.csv",
+    "index.html": "/fantasyFootballTeamEvaluator/index.html",
+    "main.50dcd9df.css.map": "/fantasyFootballTeamEvaluator/static/css/main.50dcd9df.css.map",
+    "main.ed732226.js.map": "/fantasyFootballTeamEvaluator/static/js/main.ed732226.js.map",
+    "367.b97d423e.chunk.js.map": "/fantasyFootballTeamEvaluator/static/js/367.b97d423e.chunk.js.map",
+    "143.649efd88.chunk.js.map": "/fantasyFootballTeamEvaluator/static/js/143.649efd88.chunk.js.map",
+    "698.e5bfce84.chunk.js.map": "/fantasyFootballTeamEvaluator/static/js/698.e5bfce84.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50dcd9df.css",
+    "static/js/main.ed732226.js"
+  ]
+}
